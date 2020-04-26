@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&display=swap");
+
+// Update Bulma's global variables
+$family-sans-serif: "Josefin Sans", sans-serif;
+
+// Import only what you need from Bulma
+@import "../../../node_modules/bulma/sass/utilities/_all.sass";
+@import "../../../node_modules/bulma/sass/base/_all.sass";
+@import "../../../node_modules/bulma/sass/elements/container.sass";
+@import "../../../node_modules/bulma/sass/layout/section.sass";
+@import "../../../node_modules/bulma/sass/grid/columns.sass";
+@import "../../../node_modules/bulma/sass/grid/columns.sass";
+
+:root {
+  --main-bg-color: #111111;
+  --main-text-color: #ffffff;
+}
