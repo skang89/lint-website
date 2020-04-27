@@ -14,6 +14,10 @@ $family-sans-serif: "Poppins", sans-serif;
 @import "../../../node_modules/bulma/sass/grid/columns.sass";
 @import "../../../node_modules/bulma/sass/grid/columns.sass";
 
+// import carousel css
+@import "../../../node_modules/slick-carousel/slick/slick-theme.css";
+@import "../../../node_modules/slick-carousel/slick/slick.css";
+
 :root {
   --main-bg-color: #ffffff;
   --main-text-color: #000000;
