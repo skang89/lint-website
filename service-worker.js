@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/lint-website/precache-manifest.6f15f65c70958d32007e411481aca704.js"
+  "/lint-website/precache-manifest.732e79fe7a2bf2d7af2baf65e099c6fe.js"
 );
 
 self.addEventListener('message', (event) => {
