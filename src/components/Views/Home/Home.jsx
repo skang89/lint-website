@@ -25,49 +25,33 @@ const Home = () => {
 
   return (
     <div className="lc-wrapper">
-      <img src="/assets/img/LINT_Logo.svg" alt="Lint Cosmetics" className="lc-logo" />
+      <img src="assets/img/LINT_Logo.svg" alt="Lint Cosmetics" className="lc-logo" />
       <Slider {...sliderSettings}>
         <div className="lc-slider__item">
           <img
-            src="%PUBLIC_URL%/assets/img/So-Blushing.jpg"
+            src="assets/img/So-Blushing.jpg"
             alt="So Blushing"
             className="lc-slider__img"
           />
         </div>
         <div className="lc-slider__item">
-          <img
-            src="%PUBLIC_URL%/assets/img/Danny.jpg"
-            alt="Danny"
-            className="lc-slider__img"
-          />
+          <img src="assets/img/Danny.jpg" alt="Danny" className="lc-slider__img" />
         </div>
         <div className="lc-slider__item">
           <img
-            src="%PUBLIC_URL%/assets/img/Malowanie.jpg"
+            src="assets/img/Malowanie.jpg"
             alt="Malowanie"
             className="lc-slider__img"
           />
         </div>
         <div className="lc-slider__item">
-          <img
-            src="%PUBLIC_URL%/assets/img/David.jpg"
-            alt="David"
-            className="lc-slider__img"
-          />
+          <img src="assets/img/David.jpg" alt="David" className="lc-slider__img" />
         </div>
         <div className="lc-slider__item">
-          <img
-            src="%PUBLIC_URL%/assets/img/Hialex.jpg"
-            alt="Hialex"
-            className="lc-slider__img"
-          />
+          <img src="assets/img/Hialex.jpg" alt="Hialex" className="lc-slider__img" />
         </div>
         <div className="lc-slider__item">
-          <img
-            src="%PUBLIC_URL%/assets/img/Louther.jpg"
-            alt="Louther"
-            className="lc-slider__img"
-          />
+          <img src="assets/img/Louther.jpg" alt="Louther" className="lc-slider__img" />
         </div>
       </Slider>
       <div className="lc-text">
