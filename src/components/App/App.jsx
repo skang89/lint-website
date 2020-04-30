@@ -12,7 +12,7 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route exact path="/lint-website/" component={Home} />
+        <Route exact path="/" component={Home} />
       </Switch>
     </Router>
   );
