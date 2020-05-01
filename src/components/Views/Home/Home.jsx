@@ -7,7 +7,7 @@ import "./Home.scss";
 
 const Home = () => {
   const sliderSettings = {
-    autoplay: false, // is true
+    autoplay: true, // is true
     autoplaySpeed: 2500,
     arrows: false,
     centerMode: true,
