@@ -21,7 +21,7 @@
   "serviceworker": {
     "src": "./serviceworker.js"
   },
-  "start_url": "/lint-website/",
+  "start_url": ".",
   "display": "standalone",
   "theme_color": "#ffffff",
   "background_color": "#ffffff"
