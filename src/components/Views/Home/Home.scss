@@ -1,116 +1,4 @@
 .lc {
-  // &-wrapper {
-  //   padding: 40px;
-  //   width: 100%;
-  //   min-height: 100vh;
-  //   position: relative;
-  //   display: flex;
-  //   flex-direction: column;
-  //   justify-content: space-between;
-  // }
-
-  // &-logo {
-  //   display: flex;
-  //   flex-direction: column;
-  //   align-items: center;
-  //   max-width: 540px;
-  //   margin: 0 auto 70px;
-
-  //   &__container {
-  //     display: flex;
-  //     flex-direction: column;
-  //     align-items: center;
-  //     margin-bottom: 70px;
-  //   }
-
-  //   &__logo {
-  //     max-width: 540px;
-  //   }
-  // }
-
-  // &-slider {
-  //   // display: flex;
-  //   // flex-direction: column;
-  //   // align-items: center;
-  //   margin-bottom: 70px;
-  //   &__item {
-  //     display: flex;
-  //   }
-
-  //   &__img {
-  //     width: 100%;
-  //     max-width: 540px;
-  //     margin: auto;
-  //   }
-  // }
-
-  // &-text {
-  //   text-align: center;
-  //   font-size: 2rem;
-
-  //   p:first-child {
-  //     margin-bottom: 30px;
-  //   }
-
-  //   p:not(:first-child) {
-  //     font-weight: var(--main-font-light);
-  //   }
-  // }
-
-  // @media screen and (min-width: 1024px) {
-  //   &-wrapper {
-  //     height: 100vh;
-  //     flex-direction: row;
-  //     justify-content: space-between;
-  //     align-items: center;
-  //   }
-
-  //   &-logo {
-  //     transform: rotate(-90deg) translateX(-50%);
-  //     transform-origin: left top;
-  //     width: 50%;
-  //     position: absolute;
-  //     top: 50%;
-  //     left: 0;
-  //     padding: 40px;
-  //     margin-bottom: 0;
-  //     max-width: 100vh;
-  //   }
-
-  //   &-slider {
-  //     margin-bottom: 0;
-  //     // flex-direction: unset;
-  //     position: absolute !important;
-  //     top: 50%;
-  //     left: 50%;
-  //     transform: translate(-50%, -50%);
-  //     width: 100%;
-
-  //   }
-
-  //   &-text {
-  //     position: absolute;
-  //     top: 50%;
-  //     right: 0;
-  //     transform: translateY(-50%);
-  //     text-align: right;
-  //     padding: 40px;
-  //     font-size: 1.25rem;
-  //   }
-  // }
-
-  // @media screen and (min-width: 1216px) {
-  //   &-text {
-  //     font-size: 1.5rem;
-  //   }
-  // }
-
-  // @media screen and (min-width: 1408px) {
-  //   &-text {
-  //     font-size: 2.5rem;
-  //   }
-  // }
-
   &-wrapper {
     width: 100%;
     height: 100vh;
@@ -129,10 +17,11 @@
     justify-content: space-between;
     width: 100%;
     height: 60px;
-    z-index: 999;
 
     &__logo {
+      position: relative;
       width: 88px;
+      z-index: 9999;
     }
 
     &__button {
@@ -141,10 +30,12 @@
       background-color: transparent;
       overflow: hidden;
       opacity: 1;
-      transition: 0.5s;
+      transition: all 0.5s ease;
       border: none;
       margin: 0;
       display: inline-block;
+      outline: 0;
+      z-index: 9999;
 
       img {
         position: relative;
@@ -157,6 +48,37 @@
         transform-origin: center;
       }
     }
+
+    &__overlay {
+      position: absolute;
+      top: -100vh;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      background-color: var(--main-bg-color);
+      opacity: 0.9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: top 0.5s ease;
+
+      &--active {
+        top: 0;
+      }
+
+      &__text {
+        font-size: 1.5rem;
+        text-align: center;
+        letter-spacing: 2px;
+        line-height: 2.125rem;
+
+        span {
+          font-weight: var(--main-font-medium);
+        }
+      }
+    }
   }
 
   &-slider {
@@ -165,36 +87,22 @@
       height: 100%;
       display: flex;
       flex-direction: column;
-      // justify-content: flex-end;
     }
-
-    // .slick-list .slick-track > .slick-slide {
-    //   height: 100vh;
-
-    //   .lc-slider__item {
-    //     height: 100vh;
-
-    //     picture {
-    //       display: block;
-    //       margin: auto;
-    //     }
-    //   }
-    //   &:first-child {
-    //     .lc-slider__img {
-    //       transform: rotate(-90deg) translateX(-50%);
-    //       transform-origin: left top;
-    //       position: absolute;
-    //       top: 50%;
-    //       left: 0;
-    //       margin-bottom: 0;
-    //       width: 100vh;
-    //     }
-    //   }
-    // }
 
     &__img {
       width: 100vh;
       margin: auto;
+    }
+  }
+
+  @media screen and (min-width: 769px) {
+    &-header {
+      &__overlay {
+        &__text {
+          font-size: 2.25rem;
+          line-height: 2.875rem;
+        }
+      }
     }
   }
 
@@ -203,6 +111,15 @@
       padding: 20px;
       width: 100%;
       height: 100vh;
+    }
+
+    &-header {
+      &__overlay {
+        &__text {
+          font-size: 4.5rem;
+          line-height: 5.75rem;
+        }
+      }
     }
 
     &-slider {

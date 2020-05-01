@@ -33,10 +33,17 @@ const Home = () => {
       document
         .querySelector(".lc-header__button")
         .classList.toggle("lc-header__button--active");
-    } else
+      document
+        .querySelector(".lc-header__overlay")
+        .classList.toggle("lc-header__overlay--active");
+    } else {
       document
         .querySelector(".lc-header__button")
         .classList.remove("lc-header__button--active");
+      document
+        .querySelector(".lc-header__overlay")
+        .classList.remove("lc-header__overlay--active");
+    }
   };
 
   return (
@@ -55,6 +62,15 @@ const Home = () => {
             alt="Find out more"
           />
         </button>
+
+        <div className="lc-header__overlay" id="lc-header__overlay">
+          <div className="lc-header__overlay__text">
+            <p>
+              Pro Makeup <br /> Tools Coming <br />
+              <span>September 2020</span>
+            </p>
+          </div>
+        </div>
       </header>
       <Slider {...sliderSettings}>
         <div className="lc-slider__item">
