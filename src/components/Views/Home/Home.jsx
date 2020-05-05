@@ -2,9 +2,6 @@
 import React, { useState, useEffect } from "react";
 import Slider from "react-slick";
 
-// import styles
-import "./Home.scss";
-
 const Home = () => {
   const [loading, setloading] = useState("");
 

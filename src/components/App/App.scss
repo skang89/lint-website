@@ -1,3 +1,5 @@
+/* autoprefixer grid: autoplace */
+
 @charset "utf-8";
 
 // Import a Google Font
@@ -19,7 +21,7 @@ $family-sans-serif: "Poppins", sans-serif;
 @import "../../../node_modules/slick-carousel/slick/slick.css";
 
 // Custom Scss
-@import "../Scss/Colors.scss";
+@import "../Scss/Globals.scss";
 @import "../Scss/Mixin.scss";
 
 :root {
@@ -42,3 +44,6 @@ body {
   width: 100%;
   height: 100vh;
 }
+
+// import styles
+@import "../Views/Home/Home.scss";
