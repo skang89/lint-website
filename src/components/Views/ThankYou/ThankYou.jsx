@@ -2,13 +2,13 @@
 import React, { useState, useEffect } from "react";
 import Slider from "react-slick";
 
-const Home = () => {
+const ThankYou = () => {
   const [loading, setloading] = useState("");
 
   useEffect(() => {
     setTimeout(() => {
       setloading("lc-loading--hidden");
-    }, 2500);
+    }, 0);
   }, [loading]);
 
   const sliderSettings = {
@@ -69,7 +69,10 @@ const Home = () => {
             alt="Lint Cosmetics"
           />
 
-          <button className="lc-header__button" onClick={onButtonClick}>
+          <button
+            className="lc-header__button lc-header__button--active"
+            onClick={onButtonClick}
+          >
             <img
               src="assets/img/button.svg"
               className="lc-header__button__icon"
@@ -77,80 +80,21 @@ const Home = () => {
             />
           </button>
 
-          <div className="lc-header__overlay" id="lc-header__overlay">
+          <div
+            className="lc-header__overlay lc-header__overlay--active"
+            id="lc-header__overlay"
+          >
             <div className="lc-header__overlay__text">
               <div>
                 <p>
-                  Pro Makeup <br /> Tools Coming <br />
-                  <span>September 2020</span>
+                  <span>Thanks chick</span>
                 </p>
               </div>
               <div id="mc_embed_signup">
-                <p>Leave your email address below to be part of our launch.</p>
-                {/* <!-- Begin Mailchimp Signup Form --> */}
-
-                <div id="mc_embed_signup">
-                  <form
-                    action="https://lintcosmetics.us8.list-manage.com/subscribe/post?u=86574572c0762508b3d21fc7a&amp;id=7fe3e5cc42"
-                    method="post"
-                    id="mc-embedded-subscribe-form"
-                    name="mc-embedded-subscribe-form"
-                    className="validate lc-form"
-                    target="_blank"
-                    noValidate
-                  >
-                    <div id="mc_embed_signup_scroll">
-                      <div className="mc-field-group">
-                        <label htmlFor="mce-EMAIL lc-form__label">
-                          Email Address<span className="asterisk">*</span>
-                        </label>
-                        <input
-                          type="email"
-                          name="EMAIL"
-                          className="required email  lc-form__field"
-                          id="mce-EMAIL"
-                          placeholder="Email address"
-                          defaultValue=""
-                        />
-                      </div>
-                      <div id="mce-responses" className="clear">
-                        <div
-                          className="response"
-                          id="mce-error-response"
-                          style={{ display: "none" }}
-                        ></div>
-                        <div
-                          className="response"
-                          id="mce-success-response"
-                          style={{ display: "none" }}
-                        ></div>
-                      </div>
-                      {/* <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--> */}
-                      <div
-                        style={{ position: "absolute", left: "-5000px" }}
-                        aria-hidden="true"
-                      >
-                        <input
-                          type="text"
-                          name="b_86574572c0762508b3d21fc7a_7fe3e5cc42"
-                          tabIndex="-1"
-                          value=""
-                        />
-                      </div>
-                      <div className="clear">
-                        <input
-                          type="submit"
-                          value="Subscribe"
-                          name="subscribe"
-                          id="mc-embedded-subscribe"
-                          className="button lc-button"
-                        />
-                      </div>
-                    </div>
-                  </form>
-                </div>
-
-                {/* <!--End mc_embed_signup--> */}
+                <p>
+                  Please don’t wait for a confirmation email. We will be in touch closer
+                  to the launch.
+                </p>
               </div>
             </div>
           </div>
@@ -272,4 +216,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default ThankYou;

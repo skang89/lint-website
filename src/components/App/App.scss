@@ -25,22 +25,23 @@ $family-sans-serif: "Poppins", sans-serif;
 @import "../Scss/Mixin.scss";
 
 :root {
-  --main-bg-color: #{map-get($colors, main-bg-color)};
-  --main-text-color: #{map-get($colors, main-text-color)};
+  --main-bg-primary: #{map-get($colors, main-bg-primary)};
+  --main-color-primary: #{map-get($colors, main-color-primary)};
   --main-font-light: #{map-get($colors, main-font-light)};
   --main-font-medium: #{map-get($colors, main-font-medium)};
   --main-font-bold: #{map-get($colors, main-font-bold)};
 }
 
 html {
-  @include var(background-color, main-bg-color);
+  @include var(background-color, main-bg-primary);
 }
 
 body {
-  @include var(color, main-text-color);
+  @include var(color, main-color-primary);
   font-size: 16px;
   @include var(font-weight, main-font-light);
-  line-height: 1.4;
+  line-height: 1.625rem;
+  letter-spacing: 2px;
   width: 100%;
   height: 100vh;
 }

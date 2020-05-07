@@ -2,3 +2,12 @@
   #{$property}: map-get($colors, $varName);
   #{$property}: var(--#{$varName});
 }
+
+@mixin button-reset {
+  padding: 0;
+  border: none;
+  color: inherit;
+  background-color: transparent;
+  font-size: 0.875rem;
+  cursor: pointer;
+}

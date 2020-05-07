@@ -1,4 +1,31 @@
 .lc {
+  &-button {
+    @include button-reset;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px auto;
+    padding: 0.625rem 6.25rem;
+    width: 100%;
+    @include var(color, main-bg-primary);
+    @include var(background-color, main-color-primary);
+  }
+
+  &-form {
+    margin: 20px 0;
+    label {
+      display: none;
+    }
+
+    &__field {
+      width: 100%;
+      padding: 9px;
+      border: 1px solid #b4b4b4;
+      box-sizing: border-box;
+      resize: vertical;
+    }
+  }
+
   &-loading {
     position: absolute;
     top: 0;
@@ -7,7 +34,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    @include var(background-color, main-bg-color);
+    @include var(background-color, main-bg-primary);
     z-index: 99999;
     padding: 30px;
     visibility: visible;
@@ -90,7 +117,7 @@
       left: 0;
       width: 100%;
       height: 100vh;
-      @include var(background-color, main-bg-color);
+      @include var(background-color, main-bg-primary);
       opacity: 0.9;
       display: flex;
       justify-content: center;
@@ -102,14 +129,23 @@
       }
 
       &__text {
-        font-size: 1.5rem;
         text-align: center;
-        letter-spacing: 2px;
-        line-height: 2.125rem;
-        text-transform: uppercase;
+        padding: 20px;
+        box-sizing: border-box;
+        max-width: 360px;
 
-        span {
-          @include var(font-weight, main-font-medium);
+        div {
+          margin: 20px 0;
+        }
+
+        > div:first-child {
+          font-size: 1.5rem;
+          line-height: 2.125rem;
+          text-transform: uppercase;
+
+          span {
+            @include var(font-weight, main-font-medium);
+          }
         }
       }
     }
@@ -142,8 +178,10 @@
     &-header {
       &__overlay {
         &__text {
-          font-size: 2.25rem;
-          line-height: 2.875rem;
+          > div:first-child {
+            font-size: 2.25rem;
+            line-height: 2.875rem;
+          }
         }
       }
     }
@@ -159,8 +197,12 @@
     &-header {
       &__overlay {
         &__text {
-          font-size: 4.5rem;
-          line-height: 5.75rem;
+          max-width: 680px;
+
+          > div:first-child {
+            font-size: 4.5rem;
+            line-height: 5.75rem;
+          }
         }
       }
     }
