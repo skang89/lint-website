@@ -1,16 +1,8 @@
 // import react packages
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Slider from "react-slick";
 
 const ThankYou = () => {
-  const [loading, setloading] = useState("");
-
-  useEffect(() => {
-    setTimeout(() => {
-      setloading("lc-loading--hidden");
-    }, 0);
-  }, [loading]);
-
   const sliderSettings = {
     autoplay: true, // is true
     autoplaySpeed: 2500,
@@ -53,14 +45,6 @@ const ThankYou = () => {
 
   return (
     <>
-      <div className={`lc-loading ${loading}`}>
-        <img
-          src="assets/img/LINT_Logo.svg"
-          className="lc-header__logo"
-          alt="Lint Cosmetics"
-        />
-      </div>
-
       <div className="lc-wrapper">
         <header className="lc-header">
           <img

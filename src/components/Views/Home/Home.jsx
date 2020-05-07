@@ -85,7 +85,7 @@ const Home = () => {
                   <span>September 2020</span>
                 </p>
               </div>
-              <div id="mc_embed_signup">
+              <div>
                 <p>Leave your email address below to be part of our launch.</p>
                 {/* <!-- Begin Mailchimp Signup Form --> */}
 
@@ -96,11 +96,11 @@ const Home = () => {
                     id="mc-embedded-subscribe-form"
                     name="mc-embedded-subscribe-form"
                     className="validate lc-form"
-                    target="_blank"
+                    target="_self"
                     noValidate
                   >
                     <div id="mc_embed_signup_scroll">
-                      <div className="mc-field-group">
+                      <div className="mc-field-group lc-form__group">
                         <label htmlFor="mce-EMAIL lc-form__label">
                           Email Address<span className="asterisk">*</span>
                         </label>

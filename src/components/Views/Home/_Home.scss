@@ -9,12 +9,19 @@
     width: 100%;
     @include var(color, main-bg-primary);
     @include var(background-color, main-color-primary);
+    appearance: none;
+    border-radius: 0;
   }
 
   &-form {
-    margin: 20px 0;
+    margin: 40px 0;
+
     label {
       display: none;
+    }
+
+    &__group {
+      margin: 40px 0 !important;
     }
 
     &__field {
@@ -23,6 +30,12 @@
       border: 1px solid #b4b4b4;
       box-sizing: border-box;
       resize: vertical;
+      border-radius: 0;
+      appearance: none;
+
+      &:focus {
+        @include var(outline-color, main-color-primary);
+      }
     }
   }
 
