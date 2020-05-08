@@ -160,13 +160,13 @@ const Home = () => {
             <picture>
               <source
                 media="(max-width: 1023px)"
-                srcSet="assets/img/so-blushing-mobile, assets/img/so-blushing-mobile@2x.jpg 2x, assets/img/so-blushing-mobile@3x.jpg 3x"
+                srcSet="assets/img/so-blushing-mobile.jpg, assets/img/so-blushing-mobile@2x.jpg 2x, assets/img/so-blushing-mobile@3x.jpg 3x"
                 className="lc-slider__img"
                 alt="so-blushing"
               />
               <source
                 media="(min-width: 1024px)"
-                srcSet="assets/img/so-blushing, assets/img/so-blushing@2x.jpg 2x, assets/img/so-blushing@3x.jpg 3x"
+                srcSet="assets/img/so-blushing.jpg, assets/img/so-blushing@2x.jpg 2x, assets/img/so-blushing@3x.jpg 3x"
                 className="lc-slider__img"
                 alt="so-blushing"
               />
@@ -182,13 +182,13 @@ const Home = () => {
             <picture>
               <source
                 media="(max-width: 1023px)"
-                srcSet="assets/img/hialex-mobile, assets/img/hialex-mobile@2x.jpg 2x, assets/img/hialex-mobile@3x.jpg 3x"
+                srcSet="assets/img/hialex-mobile.jpg, assets/img/hialex-mobile@2x.jpg 2x, assets/img/hialex-mobile@3x.jpg 3x"
                 className="lc-slider__img"
                 alt="hialex"
               />
               <source
                 media="(min-width: 1024px)"
-                srcSet="assets/img/hialex, assets/img/hialex@2x.jpg 2x, assets/img/hialex@3x.jpg 3x"
+                srcSet="assets/img/hialex.jpg, assets/img/hialex@2x.jpg 2x, assets/img/hialex@3x.jpg 3x"
                 className="lc-slider__img"
                 alt="hialex"
               />
@@ -204,13 +204,13 @@ const Home = () => {
             <picture>
               <source
                 media="(max-width: 1023px)"
-                srcSet="assets/img/david-mobile, assets/img/david-mobile@2x.jpg 2x, assets/img/david-mobile@3x.jpg 3x"
+                srcSet="assets/img/david-mobile.jpg, assets/img/david-mobile@2x.jpg 2x, assets/img/david-mobile@3x.jpg 3x"
                 className="lc-slider__img"
                 alt="david"
               />
               <source
                 media="(min-width: 1024px)"
-                srcSet="assets/img/david, assets/img/david@2x.jpg 2x, assets/img/david@3x.jpg 3x"
+                srcSet="assets/img/david.jpg, assets/img/david@2x.jpg 2x, assets/img/david@3x.jpg 3x"
                 className="lc-slider__img"
                 alt="david"
               />
@@ -226,13 +226,13 @@ const Home = () => {
             <picture>
               <source
                 media="(max-width: 1023px)"
-                srcSet="assets/img/malowanie-mobile, assets/img/malowanie-mobile@2x.jpg 2x, assets/img/malowanie-mobile@3x.jpg 3x"
+                srcSet="assets/img/malowanie-mobile.jpg, assets/img/malowanie-mobile@2x.jpg 2x, assets/img/malowanie-mobile@3x.jpg 3x"
                 className="lc-slider__img"
                 alt="malowanie"
               />
               <source
                 media="(min-width: 1024px)"
-                srcSet="assets/img/malowanie, assets/img/malowanie@2x.jpg 2x, assets/img/malowanie@3x.jpg 3x"
+                srcSet="assets/img/malowanie.jpg, assets/img/malowanie@2x.jpg 2x, assets/img/malowanie@3x.jpg 3x"
                 className="lc-slider__img"
                 alt="malowanie"
               />
@@ -248,13 +248,13 @@ const Home = () => {
             <picture>
               <source
                 media="(max-width: 1023px)"
-                srcSet="assets/img/ohkatieh-mobile, assets/img/ohkatieh-mobile@2x.jpg 2x, assets/img/ohkatieh-mobile@3x.jpg 3x"
+                srcSet="assets/img/ohkatieh-mobile.jpg, assets/img/ohkatieh-mobile@2x.jpg 2x, assets/img/ohkatieh-mobile@3x.jpg 3x"
                 className="lc-slider__img"
                 alt="ohkatieh"
               />
               <source
                 media="(min-width: 1024px)"
-                srcSet="assets/img/ohkatieh, assets/img/ohkatieh@2x.jpg 2x, assets/img/ohkatieh@3x.jpg 3x"
+                srcSet="assets/img/ohkatieh.jpg, assets/img/ohkatieh@2x.jpg 2x, assets/img/ohkatieh@3x.jpg 3x"
                 className="lc-slider__img"
                 alt="ohkatieh"
               />
