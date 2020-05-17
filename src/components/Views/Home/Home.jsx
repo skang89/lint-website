@@ -1,5 +1,6 @@
 // import react packages
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
 const Home = () => {
@@ -26,7 +27,7 @@ const Home = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     swipe: true,
-    touchMove: true,
+    touchMove: true
   };
 
   const onButtonClick = () => {
@@ -63,11 +64,13 @@ const Home = () => {
 
       <div className="lc-wrapper">
         <header className="lc-header">
-          <img
-            src="assets/img/LINT_Logo.svg"
-            className="lc-header__logo"
-            alt="Lint Cosmetics"
-          />
+          <Link to="/">
+            <img
+              src="assets/img/LINT_Logo.svg"
+              className="lc-header__logo"
+              alt="Lint Cosmetics"
+            />
+          </Link>
 
           <button className="lc-header__button" onClick={onButtonClick}>
             <img
