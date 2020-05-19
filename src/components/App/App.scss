@@ -1,5 +1,3 @@
-/* autoprefixer grid: autoplace */
-
 @charset "utf-8";
 
 // Import a Google Font
@@ -14,11 +12,7 @@ $family-sans-serif: "Poppins", sans-serif;
 @import "../../../node_modules/bulma/sass/elements/container.sass";
 @import "../../../node_modules/bulma/sass/layout/section.sass";
 @import "../../../node_modules/bulma/sass/grid/columns.sass";
-@import "../../../node_modules/bulma/sass/grid/columns.sass";
-
-// import carousel css
-@import "../../../node_modules/slick-carousel/slick/slick-theme.css";
-@import "../../../node_modules/slick-carousel/slick/slick.css";
+@import "../../../node_modules/bulma/sass/form/_all.sass";
 
 // Custom Scss
 @import "../Scss/Globals.scss";
@@ -30,20 +24,12 @@ $family-sans-serif: "Poppins", sans-serif;
   --main-font-light: #{map-get($colors, main-font-light)};
   --main-font-medium: #{map-get($colors, main-font-medium)};
   --main-font-bold: #{map-get($colors, main-font-bold)};
+  --main-font-size: 16px;
 }
 
 html {
   @include var(background-color, main-bg-primary);
-}
-
-body {
-  @include var(color, main-color-primary);
-  font-size: 16px;
-  @include var(font-weight, main-font-light);
-  line-height: 1.625rem;
-  letter-spacing: 2px;
-  width: 100%;
-  height: 100vh;
+  font: var(--main-font-size);
 }
 
 // import styles
