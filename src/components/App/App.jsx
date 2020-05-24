@@ -5,9 +5,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import components
 import Home from "../Views/Home/Home";
 
-// import styles
-import "./App.scss";
-
 const App = () => {
   return (
     <Router>
