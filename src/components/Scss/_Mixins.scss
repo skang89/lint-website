@@ -1,3 +1,9 @@
+// vars
+@mixin var($property, $varName) {
+  #{$property}: map-get($colors, $varName);
+  #{$property}: var(--#{$varName});
+}
+
 // breakpoint mixin
 @mixin mq($width, $type: min) {
   @if map_has_key($breakpoints, $width) {
