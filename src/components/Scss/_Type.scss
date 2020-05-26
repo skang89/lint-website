@@ -109,5 +109,106 @@
         @include var(font-weight, main-font-medium);
       }
     }
+
+    &__h5 {
+      @include font-poppins($size: 0.875rem, $lh: 2.125rem, $ls: 0.1875rem);
+      @include var(color, main-color-default);
+      @include var(font-weight, main-font-light);
+
+      @include mq("large") {
+        @include font-poppins($size: 0.875rem, $lh: 1.875rem, $ls: 0.0625rem);
+      }
+
+      &--light {
+        @include var(color, main-color-primary);
+      }
+
+      &--bold {
+        @include var(font-weight, main-font-medium);
+      }
+    }
+
+    &__h6 {
+      @include font-poppins($size: 0.75rem, $lh: 1.875rem, $ls: 0.0625rem);
+      @include var(color, main-color-default);
+      @include var(font-weight, main-font-light);
+
+      &--light {
+        @include var(color, main-color-primary);
+      }
+
+      &--bold {
+        @include var(font-weight, main-font-medium);
+      }
+    }
+
+    &__h7 {
+      @include font-poppins($size: 1rem, $lh: 1.625rem, $ls: 0.1875rem);
+      @include var(color, main-color-default);
+      @include var(font-weight, main-font-light);
+
+      &--light {
+        @include var(color, main-color-primary);
+      }
+
+      &--bold {
+        @include var(font-weight, main-font-medium);
+      }
+    }
+  }
+
+  // body
+  &__body {
+    &__b1 {
+      @include font-poppins($size: 0.875rem, $lh: 1.5rem, $ls: 0.125rem);
+      @include var(color, main-color-default);
+      @include var(font-weight, main-font-light);
+
+      @include mq("large") {
+        @include font-poppins($size: 1rem, $lh: 1.625rem, $ls: 0.125rem);
+      }
+
+      &--light {
+        @include var(color, main-color-primary);
+      }
+
+      &--bold {
+        @include var(font-weight, main-font-medium);
+      }
+    }
+
+    &__b2 {
+      @include font-poppins($size: 0.875rem, $lh: 1.5rem, $ls: 0.125rem);
+      @include var(color, main-color-default);
+      @include var(font-weight, main-font-light);
+
+      @include mq("large") {
+        @include font-poppins($size: 1rem, $lh: 1.625rem, $ls: 0.125rem);
+      }
+
+      &--light {
+        @include var(color, main-color-primary);
+      }
+
+      &--bold {
+        @include var(font-weight, main-font-medium);
+      }
+    }
+
+    &__b3,
+    &__b4,
+    &__b5 {
+      @include font-poppins($size: 0.875rem, $lh: 1.5rem, $ls: 0.125rem);
+      @include var(color, main-color-default);
+      @include var(font-weight, main-font-light);
+
+      &--light {
+        @include var(color, main-color-primary);
+      }
+
+      &--bold {
+        @include var(font-weight, main-font-medium);
+      }
+    }
   }
 }
