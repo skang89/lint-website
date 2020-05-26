@@ -14,6 +14,7 @@ $feature-flags: (
 //import custom globals
 @import "./components/Scss/Globals";
 @import "./components/Scss/Mixins";
+@import "./components/Scss/Type";
 
 :root {
   --main-color-defualt: #{map-get($colors, main-color-default)};
@@ -22,6 +23,16 @@ $feature-flags: (
   --main-font-light: #{map-get($weights, main-font-light)};
   --main-font-medium: #{map-get($weights, main-font-medium)};
   --main-font-bold: #{map-get($weights, main-font-bold)};
+}
+
+html {
+  @include var(background-color, main-color-primary);
+}
+
+body {
+  @include font-poppins($size: 1rem, $lh: 1rem, $ls: 0.125rem);
+  @include var(color, main-color-default);
+  @include var(font-weight, main-font-light);
 }
 
 // import component styles

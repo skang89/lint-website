@@ -18,18 +18,12 @@
 }
 
 // font styles mixin
-@mixin font-poppins($size: false, $colour: false, $weight: false, $lh: false) {
+@mixin font-poppins($size: false, $lh: false, $ls: false) {
   font-family: "Poppins", sans-serif;
   font-stretch: normal;
   font-style: normal;
   @if $size {
     font-size: $size;
-  }
-  @if $colour {
-    color: $colour;
-  }
-  @if $weight {
-    font-weight: $weight;
   }
   @if $lh {
     line-height: $lh;
