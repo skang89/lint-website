@@ -1,0 +1,13 @@
+.lc-header {
+  margin: $layout-01 0;
+
+  &__logo {
+    img {
+      width: 56px;
+
+      @include mq("large") {
+        width: 86px;
+      }
+    }
+  }
+}

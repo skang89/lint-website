@@ -1,11 +1,19 @@
 @charset "utf-8";
 
+$feature-flags: (
+  grid-columns-16: true
+);
+
 // import imb design system
 @import "../node_modules/carbon-components/scss/globals/scss/styles.scss";
+@import "../node_modules/carbon-components/scss/globals/grid/grid";
 
 // Import a Google Font
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
 
-$feature-flags: (
-  grid-columns-16: true
-);
+//import custom globals
+@import "./components/Scss/Globals";
+@import "./components/Scss/Mixins";
+
+// import component styles
+@import "./components/Header/Header";
