@@ -15,5 +15,14 @@ $feature-flags: (
 @import "./components/Scss/Globals";
 @import "./components/Scss/Mixins";
 
+:root {
+  --main-color-defualt: #{map-get($colors, main-color-default)};
+  --main-color-primary: #{map-get($colors, main-color-primary)};
+  --main-color-secondary: #{map-get($colors, main-color-secondary)};
+  --main-font-light: #{map-get($weights, main-font-light)};
+  --main-font-medium: #{map-get($weights, main-font-medium)};
+  --main-font-bold: #{map-get($weights, main-font-bold)};
+}
+
 // import component styles
 @import "./components/Header/Header";
