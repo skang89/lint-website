@@ -211,4 +211,24 @@
       }
     }
   }
+
+  // lint family
+  &__lint {
+    &__fam1,
+    &__fam2,
+    &__fam3,
+    &__fam4 {
+      @include font-poppins($size: 1rem, $lh: 1.625rem, $ls: 0.0625rem);
+      @include var(color, main-color-default);
+      @include var(font-weight, main-font-light);
+
+      &--light {
+        @include var(color, main-color-primary);
+      }
+
+      &--bold {
+        @include var(font-weight, main-font-medium);
+      }
+    }
+  }
 }

@@ -78,12 +78,12 @@ const Home = () => {
         quam vero aspernatur placeat ut eius possimus ipsa nostrum pariatur reiciendis
         accusantium porro quae perferendis quis similique? Quasi.
       </p>
-      <p className="lc-type__body__b1--bold">
+      <p className="lc-type__body__b1 lc-type__body__b1--bold">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci harum, sed nam
         quam vero aspernatur placeat ut eius possimus ipsa nostrum pariatur reiciendis
         accusantium porro quae perferendis quis similique? Quasi.
       </p>
-      <p className="lc-type__body__b1--light">
+      <p className="lc-type__body__b1 lc-type__body__b1--light">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci harum, sed nam
         quam vero aspernatur placeat ut eius possimus ipsa nostrum pariatur reiciendis
         accusantium porro quae perferendis quis similique? Quasi.
@@ -98,7 +98,7 @@ const Home = () => {
         quam vero aspernatur placeat ut eius possimus ipsa nostrum pariatur reiciendis
         accusantium porro quae perferendis quis similique? Quasi.
       </p>
-      <p className="lc-type__body__b2--light">
+      <p className="lc-type__body__b2 lc-type__body__b2--light">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci harum, sed nam
         quam vero aspernatur placeat ut eius possimus ipsa nostrum pariatur reiciendis
         accusantium porro quae perferendis quis similique? Quasi.
@@ -108,12 +108,12 @@ const Home = () => {
         quam vero aspernatur placeat ut eius possimus ipsa nostrum pariatur reiciendis
         accusantium porro quae perferendis quis similique? Quasi.
       </p>
-      <p className="lc-type__body__b3--bold">
+      <p className="lc-type__body__b3 lc-type__body__b3--bold">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci harum, sed nam
         quam vero aspernatur placeat ut eius possimus ipsa nostrum pariatur reiciendis
         accusantium porro quae perferendis quis similique? Quasi.
       </p>
-      <p className="lc-type__body__b3--light">
+      <p className="lc-type__body__b3 lc-type__body__b3--light">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci harum, sed nam
         quam vero aspernatur placeat ut eius possimus ipsa nostrum pariatur reiciendis
         accusantium porro quae perferendis quis similique? Quasi.
@@ -123,12 +123,12 @@ const Home = () => {
         quam vero aspernatur placeat ut eius possimus ipsa nostrum pariatur reiciendis
         accusantium porro quae perferendis quis similique? Quasi.
       </p>
-      <p className="lc-type__body__b4--bold">
+      <p className="lc-type__body__b4 lc-type__body__b4--bold">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci harum, sed nam
         quam vero aspernatur placeat ut eius possimus ipsa nostrum pariatur reiciendis
         accusantium porro quae perferendis quis similique? Quasi.
       </p>
-      <p className="lc-type__body__b4--light">
+      <p className="lc-type__body__b4 lc-type__body__b4--light">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci harum, sed nam
         quam vero aspernatur placeat ut eius possimus ipsa nostrum pariatur reiciendis
         accusantium porro quae perferendis quis similique? Quasi.
@@ -138,12 +138,27 @@ const Home = () => {
         quam vero aspernatur placeat ut eius possimus ipsa nostrum pariatur reiciendis
         accusantium porro quae perferendis quis similique? Quasi.
       </p>
-      <p className="lc-type__body__b5--bold">
+      <p className="lc-type__body__b5 lc-type__body__b5--bold">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci harum, sed nam
         quam vero aspernatur placeat ut eius possimus ipsa nostrum pariatur reiciendis
         accusantium porro quae perferendis quis similique? Quasi.
       </p>
-      <p className="lc-type__body__b5--light">
+      <p className="lc-type__body__b5 lc-type__body__b5--light">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci harum, sed nam
+        quam vero aspernatur placeat ut eius possimus ipsa nostrum pariatur reiciendis
+        accusantium porro quae perferendis quis similique? Quasi.
+      </p>
+      <p className="lc-type__lint__fam1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci harum, sed nam
+        quam vero aspernatur placeat ut eius possimus ipsa nostrum pariatur reiciendis
+        accusantium porro quae perferendis quis similique? Quasi.
+      </p>
+      <p className="lc-type__lint__fam1 lc-type__lint__fam1--bold">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci harum, sed nam
+        quam vero aspernatur placeat ut eius possimus ipsa nostrum pariatur reiciendis
+        accusantium porro quae perferendis quis similique? Quasi.
+      </p>
+      <p className="lc-type__lint__fam1 lc-type__lint__fam1--light">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci harum, sed nam
         quam vero aspernatur placeat ut eius possimus ipsa nostrum pariatur reiciendis
         accusantium porro quae perferendis quis similique? Quasi.
