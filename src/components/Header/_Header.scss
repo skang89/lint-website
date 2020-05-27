@@ -1,12 +1,38 @@
 .lc-header {
-  margin: $layout-01 0;
+  padding-top: $layout-01;
+  padding-bottom: $layout-01;
 
   &__logo {
     img {
       width: 56px;
+      display: block;
 
       @include mq("large") {
         width: 86px;
+      }
+    }
+  }
+
+  &__items {
+    &__currency,
+    &__basket {
+      display: block;
+      text-align: right;
+    }
+
+    &__basket {
+      a {
+        position: relative;
+      }
+
+      &__number {
+        position: absolute;
+        @include font-poppins($size: 12px, $ls: 0.0625rem);
+        @include var(color, main-color-primary);
+        @include var(font-weight, main-font-medium);
+        top: 1px;
+        left: 50%;
+        transform: translateX(-50%);
       }
     }
   }

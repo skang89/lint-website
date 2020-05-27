@@ -1,0 +1,22 @@
+// breakpoints
+$breakpoints: (
+  "small": 320px,
+  "medium": 672px,
+  "large": 1056px,
+  "xlarge": 1312px,
+  "max": 1584px
+);
+
+// colours
+$colors: (
+  main-color-default: #000000,
+  main-color-primary: #ffffff,
+  main-color-secondary: #b4b4b4
+);
+
+// font weights
+$weights: (
+  main-font-light: 300,
+  main-font-medium: 500,
+  main-font-bold: 700
+);

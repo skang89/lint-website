@@ -12,9 +12,11 @@ $feature-flags: (
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
 
 //import custom globals
-@import "./components/Scss/Globals";
+@import "./components/Scss/Variables";
 @import "./components/Scss/Mixins";
+@import "./components/Scss/Globals";
 @import "./components/Scss/Type";
+@import "./components/Scss/Buttons";
 
 :root {
   --main-color-defualt: #{map-get($colors, main-color-default)};
@@ -27,6 +29,7 @@ $feature-flags: (
 
 html {
   @include var(background-color, main-color-primary);
+  min-width: 320px;
 }
 
 body {
