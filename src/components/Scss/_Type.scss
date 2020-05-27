@@ -231,4 +231,21 @@
       }
     }
   }
+
+  // meta
+  &__meta {
+    &__s1 {
+      @include font-poppins($size: 0.75rem, $lh: 1.5rem, $ls: 0.0625rem);
+      @include var(color, main-color-default);
+      @include var(font-weight, main-font-light);
+
+      &--light {
+        @include var(color, main-color-primary);
+      }
+
+      &--bold {
+        @include var(font-weight, main-font-medium);
+      }
+    }
+  }
 }

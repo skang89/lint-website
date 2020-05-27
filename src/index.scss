@@ -19,7 +19,7 @@ $feature-flags: (
 @import "./components/Scss/Buttons";
 
 :root {
-  --main-color-defualt: #{map-get($colors, main-color-default)};
+  --main-color-default: #{map-get($colors, main-color-default)};
   --main-color-primary: #{map-get($colors, main-color-primary)};
   --main-color-secondary: #{map-get($colors, main-color-secondary)};
   --main-font-light: #{map-get($weights, main-font-light)};
@@ -38,5 +38,12 @@ body {
   @include var(font-weight, main-font-light);
 }
 
+// reset link styles
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 // import component styles
 @import "./components/Header/Header";
+@import "./components/OfferBanner/OfferBanner";
