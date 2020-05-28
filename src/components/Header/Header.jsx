@@ -15,11 +15,13 @@ const Header = () => {
         </div>
         <div className="bx--col bx--col-md-2 bx--col-lg-3 bx--col-xlg-3 bx--col-max-2 lc-header__items">
           <div className="bx--row lc-align__items--center">
-            <div className="bx--col lc-header__items__currency">
-              <span className="lc-type__header__h1">£</span>
+            <div className="bx--col lc-header__items lc-header__items__currency">
+              <Link className="lc-button">
+                <span className="lc-type__header__h1">£</span>
+              </Link>
             </div>
-            <div className="bx--col lc-header__items__basket">
-              <Link to="/" title="Basket items: 0">
+            <div className="bx--col lc-header__items lc-header__items__basket">
+              <Link to="/" title="Basket items: 0" className="lc-button">
                 <img
                   src="assets/icons/icons-header-shopping-bag-small.svg"
                   alt="shopping basket"
@@ -27,12 +29,12 @@ const Header = () => {
                 <span className="lc-header__items__basket__number">0</span>
               </Link>
             </div>
-            <div className="bx--col lc-header__items__menu">
-              <button type="button" className="lc-button lc-button__hamburger">
+            <div className="bx--col lc-header__items lc-header__items__menu">
+              <Link className="lc-button lc-button__hamburger">
                 <span className="lc-button__hamburger__line lc-button__hamburger__line--top"></span>
                 <span className="lc-button__hamburger__line lc-button__hamburger__line--middle"></span>
                 <span className="lc-button__hamburger__line lc-button__hamburger__line--bottom"></span>
-              </button>
+              </Link>
             </div>
           </div>
         </div>

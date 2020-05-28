@@ -28,10 +28,8 @@ const HeroCta = () => {
           </Link>
           <div className="bx--col lc-hero-cta__content">
             <h2 className="lc-type__header__h2 lc-text__uppercase">Brushes CTA</h2>
-            <Link to="/" title="hero-cta">
-              <button type="button" className="lc-button">
-                Shop
-              </button>
+            <Link to="/" title="hero-cta" className="lc-button lc-button__default">
+              Shop
             </Link>
           </div>
         </div>

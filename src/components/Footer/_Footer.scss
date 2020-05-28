@@ -1,0 +1,26 @@
+.lc-footer {
+  position: relative;
+  margin-top: $layout-06;
+  box-shadow: 0 100vh 0 100vh #ffffff
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-top: 1px solid;
+    @include var(border-color, main-color-secondary);
+  }
+
+  &__social__icon {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin: $spacing-05 $spacing-05 $spacing-07 0;
+  }
+
+  &__menu {
+    margin-bottom: $layout-05;
+  }
+}
