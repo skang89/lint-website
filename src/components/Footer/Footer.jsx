@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="bx--grid bx--grid--full-width lc-footer">
       <div className="bx--row lc-footer__social">
-        <div className="bx--col-sm-3 bx--col-md-3 bx--col-lg-2 bx--col-max-3">
+        <div className="bx--col-sm-3 bx--col-md-3 bx--col-lg-3 bx--col-max-3">
           <Link
             to="/"
             title="Lint Cosmetics instagram"
