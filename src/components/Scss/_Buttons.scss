@@ -98,4 +98,11 @@
       opacity: 1;
     }
   }
+
+  &__full-width {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    max-width: unset;
+  }
 }

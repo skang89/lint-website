@@ -4,14 +4,14 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 // import components
 import Home from "../Views/Home/Home";
-import Type from "../Views/Type/Type";
+import Products from "../Views/Products/Products";
 
 const App = () => {
   return (
     <Router>
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/type" component={Type} />
+        <Route exact path="/products" component={Products} />
       </Switch>
     </Router>
   );

@@ -23,7 +23,7 @@
   // text align
   &-text {
     &__left {
-      text-align: center;
+      text-align: left;
     }
 
     &__center {
@@ -31,11 +31,15 @@
     }
 
     &__right {
-      text-align: center;
+      text-align: right;
     }
 
     &__uppercase {
       text-transform: uppercase;
+    }
+
+    &__underline {
+      text-decoration: underline;
     }
   }
 }
