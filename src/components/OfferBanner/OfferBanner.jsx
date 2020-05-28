@@ -9,7 +9,7 @@ const OfferBanner = () => {
         <div className="bx--col">
           <Link to="/" title="Banner title">
             <h3 className="lc-type__meta__s1 lc-type__meta__s1--light lc-type__meta__s1--bold lc-text__center lc-offer-banner__headline">
-              This is some text for an offer <span></span>
+              This is some text for an offer &nbsp;<span></span>
             </h3>
           </Link>
         </div>

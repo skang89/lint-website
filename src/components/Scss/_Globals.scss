@@ -25,11 +25,17 @@
     &__left {
       text-align: center;
     }
+
     &__center {
       text-align: center;
     }
+
     &__right {
       text-align: center;
+    }
+
+    &__uppercase {
+      text-transform: uppercase;
     }
   }
 }
