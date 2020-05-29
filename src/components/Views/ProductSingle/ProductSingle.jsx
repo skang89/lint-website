@@ -3,21 +3,19 @@ import React from "react";
 
 // import components
 import Header from "../../Header/Header";
-import OfferBanner from "../../OfferBanner/OfferBanner";
 import ProductType from "../../ProductType/ProductType";
-import ProductListItem from "../../ProductListItem/ProductListItem";
+import ProductDetails from "../../ProductDetails/ProductDetails";
 import Footer from "../../Footer/Footer";
 
-const Products = () => {
+const ProductSingle = () => {
   return (
     <>
       <Header />
-      <OfferBanner />
       <ProductType />
-      <ProductListItem />
+      <ProductDetails />
       <Footer />
     </>
   );
 };
 
-export default Products;
+export default ProductSingle;

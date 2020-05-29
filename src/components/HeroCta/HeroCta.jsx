@@ -11,16 +11,16 @@ const HeroCta = () => {
             <picture>
               <source
                 media="(max-width: 1055px)"
-                srcset="assets/product/Placeholder_Mobile.png"
+                srcset="/assets/product/Placeholder_Mobile.png"
                 alt="placeholder product"
               />
               <source
                 media="(min-width: 1056px)"
-                srcset="assets/product/Placeholder.png"
+                srcset="/assets/product/Placeholder.png"
                 alt="placeholder product"
               />
               <img
-                src="assets/product/Placeholder_Default.jpg"
+                src="/assets/product/Placeholder_Default.jpg"
                 alt="placeholder product"
                 className="lc-hero-cta__image"
               />

@@ -23,7 +23,7 @@ const Header = () => {
             <div className="bx--col lc-header__items lc-header__items__basket">
               <Link to="/" title="Basket items: 0" className="lc-button">
                 <img
-                  src="assets/icons/icons-header-shopping-bag-small.svg"
+                  src="/assets/icons/icons-header-shopping-bag-small.svg"
                   alt="shopping basket"
                 />
                 <span className="lc-header__items__basket__number">0</span>

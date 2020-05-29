@@ -13,7 +13,7 @@ const Footer = () => {
             className="lc-button lc-footer__social__icon"
           >
             <img
-              src="assets/icons/icons-social-media-instagram-small.svg"
+              src="/assets/icons/icons-social-media-instagram-small.svg"
               alt="Instagram Icon"
             />
           </Link>
@@ -23,7 +23,7 @@ const Footer = () => {
             className="lc-button lc-footer__social__icon"
           >
             <img
-              src="assets/icons/icons-social-media-facebook-small.svg"
+              src="/assets/icons/icons-social-media-facebook-small.svg"
               alt="facebook Icon"
             />
           </Link>
@@ -33,7 +33,7 @@ const Footer = () => {
             className="lc-button lc-footer__social__icon"
           >
             <img
-              src="assets/icons/icons-social-media-pinterest-small.svg"
+              src="/assets/icons/icons-social-media-pinterest-small.svg"
               alt="pinterest Icon"
             />
           </Link>
@@ -43,7 +43,7 @@ const Footer = () => {
             className="lc-button lc-footer__social__icon"
           >
             <img
-              src="assets/icons/icons-social-media-twitter-small.svg"
+              src="/assets/icons/icons-social-media-twitter-small.svg"
               alt="twitter Icon"
             />
           </Link>
