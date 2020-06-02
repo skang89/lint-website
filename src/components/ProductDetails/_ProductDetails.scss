@@ -4,12 +4,44 @@
   }
 
   &__images {
-    img {
-      width: 100%;
-      height: 376px;
-      object-fit: cover;
-      object-position: center;
-      margin-bottom: $layout-03;
+    div > div {
+      &:first-of-type {
+        picture img {
+          height: 368px;
+
+          @include mq("medium") {
+            height: 777px;
+          }
+
+          @include mq("large") {
+            height: 376px;
+          }
+        }
+      }
+
+      picture {
+        img {
+          width: 100%;
+          height: 176px;
+          object-fit: cover;
+          object-position: center;
+          margin-bottom: $layout-03;
+
+          @include mq("medium") {
+            height: 384px;
+          }
+
+          @include mq("large") {
+            height: 376px;
+          }
+        }
+      }
+    }
+  }
+
+  &__info {
+    @include mq("large") {
+      margin-left: auto;
     }
   }
 }

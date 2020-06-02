@@ -5,7 +5,7 @@ const ProductImages = () => {
   return (
     <>
       <div className="bx--row">
-        <div className="bx--col bx--col-lg-6">
+        <div className="bx--col-sm-4 bx--col-lg-6">
           <picture>
             <source
               media="(max-width: 1055px)"
@@ -41,8 +41,6 @@ const ProductImages = () => {
             />
           </picture>
         </div>
-      </div>
-      <div className="bx--row">
         <div className="bx--col">
           <picture>
             <source
