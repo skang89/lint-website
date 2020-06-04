@@ -1,0 +1,35 @@
+@import "../Scss/Variables";
+@import "../Scss/Mixins";
+@import "../Scss/Globals";
+
+.lc-button__hamburger {
+  @include button-reset;
+  width: 24px;
+  height: 16px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+
+  &__line {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    pointer-events: none;
+    @include var(background-color, main-color-default);
+
+    &--top {
+      top: 0;
+    }
+
+    &--middle {
+      top: 0;
+      bottom: 0;
+      margin: auto;
+    }
+
+    &--bottom {
+      bottom: 0;
+    }
+  }
+}

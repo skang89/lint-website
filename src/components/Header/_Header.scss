@@ -20,10 +20,14 @@
       display: block;
       text-align: right;
       position: relative;
+    }
+
+    &__currency {
       top: 1px;
     }
 
     &__basket {
+      top: 0px;
       a {
         position: relative;
       }

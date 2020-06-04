@@ -1,0 +1,55 @@
+@import "../../Scss/Variables";
+@import "../../Scss/Mixins";
+@import "../../Scss/Globals";
+
+.lc-quantity {
+  @include font-poppins($size: 0.875rem, $lh: 0.875rem, $ls: 0.125rem);
+  @include var(font-weight, main-font-medium);
+  @include var(color, main-color-default);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  border-left: 1px solid transparent;
+  @include var(border-color, main-color-secondary);
+
+  > div {
+    &:first-of-type {
+      flex-grow: 1;
+      text-align: center;
+    }
+    &:last-of-type {
+      width: 120px;
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+  &__button {
+    @include button-reset;
+    @include var(background-color, main-color-primary);
+    display: inline-block;
+    text-align: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    @include var(border-color, main-color-secondary);
+    user-select: none;
+  }
+
+  input[type="number"] {
+    text-align: center;
+    border: none;
+    margin: 0px;
+    width: 2.5rem;
+    height: 2.5rem;
+
+    &::-webkit-inner-spin-button,
+    &::-webkit-outer-spin-button {
+      appearance: none;
+      margin: 0;
+    }
+  }
+}

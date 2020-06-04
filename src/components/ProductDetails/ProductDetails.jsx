@@ -3,6 +3,7 @@ import React from "react";
 
 // import components
 import ProductImages from "./../ProductImages/ProductImages";
+import Quantity from "../Buttons/Quantity/Quantity";
 
 const ProductDetails = () => {
   return (
@@ -24,7 +25,7 @@ const ProductDetails = () => {
             <ProductImages />
           </div>
           <div className="bx--col-4 bx--col-lg-3 bx--col-xlg-3 lc-product-details__info">
-            test
+            <Quantity label={"Quantity"} />
           </div>
         </div>
       </div>

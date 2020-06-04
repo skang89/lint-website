@@ -1,0 +1,7 @@
+@import "../Scss/Variables";
+@import "../Scss/Mixins";
+@import "../Scss/Globals";
+
+.lc-button__currency {
+  @include button-reset;
+}

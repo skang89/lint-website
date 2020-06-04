@@ -12,7 +12,7 @@
 @import "./components/Scss/Mixins";
 @import "./components/Scss/Globals";
 @import "./components/Scss/Type";
-@import "./components/Scss/Buttons";
+// @import "./components/Scss/Buttons";
 
 :root {
   --main-color-default: #{map-get($colors, main-color-default)};
