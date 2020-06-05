@@ -3,7 +3,7 @@
 @import "../../Scss/Globals";
 
 .lc-button {
-  &__primary {
+  &__fav {
     @include button-reset;
     @include font-poppins($size: 0.875rem, $lh: 0.875rem, $ls: 0.125rem);
     @include var(font-weight, main-font-medium);
@@ -14,11 +14,12 @@
     border-radius: 0;
     padding: calc(0.875rem - 3px) 34px calc(0.875rem - 3px) 34px;
     min-height: 2.5rem;
-    border: 3px solid transparent;
+    border: 1px solid transparent;
     outline: 1px solid transparent;
     outline-offset: -4px;
     @include var(background-color, main-color-primary);
     @include var(color, main-color-default);
+    @include var(border-color, main-color-secondary);
     transition: all 0.5s ease-out;
     margin-bottom: 1rem;
 
@@ -33,9 +34,15 @@
     }
 
     &:focus {
-      @include var(border-color, main-color-primary);
-      @include var(outline-color, main-color-default);
+      @include var(border-color, main-color-secondary);
+      @include var(outline-color, main-color-secondary);
       opacity: 1;
+    }
+
+    &__icon {
+      width: 16px;
+      vertical-align: bottom;
+      margin-left: 8px;
     }
   }
 

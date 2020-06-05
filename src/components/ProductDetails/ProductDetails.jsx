@@ -5,6 +5,7 @@ import React from "react";
 import ProductImages from "./../ProductImages/ProductImages";
 import ButtonQuantity from "../Buttons/ButtonQuantity/ButtonQuantity";
 import ButtonDefault from "../Buttons/ButtonDefault/ButtonDefault";
+import ButtonFav from "../Buttons/ButtonFav/ButtonFav";
 
 const ProductDetails = () => {
   return (
@@ -26,10 +27,36 @@ const ProductDetails = () => {
             <ProductImages />
           </div>
           <div className="bx--col-4 bx--col-lg-3 bx--col-xlg-3 lc-product-details__info">
-            <ButtonQuantity label={"Quantity"} />
-          </div>
-          <div className="bx--col-4 bx--col-lg-3 bx--col-xlg-3 lc-product-details__info">
-            <ButtonDefault linkFullWidth={true} />
+            <div className="">
+              <div className="bx--row">
+                <div className="bx--col">
+                  <ButtonQuantity label={"Quantity"} />
+                </div>
+              </div>
+              <div className="bx--row">
+                <div className="bx--col">
+                  <ButtonDefault linkFullWidth={true} />
+                </div>
+              </div>
+              <div className="bx--row">
+                <div className="bx--col">
+                  <ButtonFav linkText="Favourite" linkFullWidth={true} />
+                </div>
+              </div>
+              <div className="bx--row">
+                <div className="bx--col lc-type__body__b2">
+                  <p>
+                    Description of product Description of product Description of product
+                  </p>
+                  <p>
+                    Description of product Description of product Description of product
+                  </p>
+                  <p>
+                    Description of product Description of product Description of product
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

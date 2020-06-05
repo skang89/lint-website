@@ -40,6 +40,10 @@
   }
 
   &__info {
+    > div {
+      margin-bottom: $spacing-08;
+    }
+
     @include mq("large") {
       margin-left: auto;
     }

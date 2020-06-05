@@ -4,35 +4,43 @@ import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
 // import style
-import "./ButtonPrimary.scss";
+import "./ButtonFav.scss";
 
-const ButtonPrimary = (props) => {
+const ButtonFav = (props) => {
   const { linkUrl, linkTitle, linkText, linkFullWidth } = props;
 
   return (
     <Link
       to={linkUrl}
       title={linkTitle}
-      className={`lc-button__primary ${linkFullWidth ? "lc-button__full-width" : ""}`}
+      className={`lc-button__fav ${linkFullWidth ? "lc-button__full-width" : ""}`}
     >
       {linkText}
+      <span>
+        <img
+          className="lc-button__fav__icon"
+          src="/assets/icons/favorite--empty.svg"
+          alt="favourite icon"
+          srcset="/assets/icons/favorite--empty.svg"
+        />
+      </span>
     </Link>
   );
 };
 
 // prop types
-ButtonPrimary.defaultProps = {
+ButtonFav.defaultProps = {
   linkUrl: "/",
   linkTitle: "Link title",
   linkText: "Link title",
   linkFullWidth: false
 };
 
-ButtonPrimary.propTypes = {
+ButtonFav.propTypes = {
   linkUrl: PropTypes.string,
   linkTitle: PropTypes.string,
   linkText: PropTypes.string,
   linkFullWidth: PropTypes.bool
 };
 
-export default ButtonPrimary;
+export default ButtonFav;
