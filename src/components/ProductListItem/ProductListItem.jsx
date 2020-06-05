@@ -2,6 +2,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+// import components
+import ButtonDefault from "../Buttons/ButtonDefault/ButtonDefault";
+
 const ProductItem = () => {
   return (
     <div className="bx--grid bx--grid--full-width lc-product-items">
@@ -35,13 +38,7 @@ const ProductItem = () => {
           </div>
           <div className="bx--row">
             <div className="bx--col ">
-              <Link
-                to="/"
-                title="product item link"
-                className="lc-button lc-button__default lc-button__full-width"
-              >
-                Buy now
-              </Link>
+              <ButtonDefault linkFullWidth={true} />
             </div>
           </div>
         </div>
@@ -74,13 +71,7 @@ const ProductItem = () => {
           </div>
           <div className="bx--row">
             <div className="bx--col ">
-              <Link
-                to="/"
-                title="product item link"
-                className="lc-button lc-button__default lc-button__full-width"
-              >
-                Buy now
-              </Link>
+              <ButtonDefault linkFullWidth={true} />
             </div>
           </div>
         </div>
@@ -113,13 +104,7 @@ const ProductItem = () => {
           </div>
           <div className="bx--row">
             <div className="bx--col ">
-              <Link
-                to="/"
-                title="product item link"
-                className="lc-button lc-button__default lc-button__full-width"
-              >
-                Buy now
-              </Link>
+              <ButtonDefault linkFullWidth={true} />
             </div>
           </div>
         </div>
@@ -152,13 +137,7 @@ const ProductItem = () => {
           </div>
           <div className="bx--row">
             <div className="bx--col ">
-              <Link
-                to="/"
-                title="product item link"
-                className="lc-button lc-button__default lc-button__full-width"
-              >
-                Buy now
-              </Link>
+              <ButtonDefault linkFullWidth={true} />
             </div>
           </div>
         </div>
@@ -191,13 +170,7 @@ const ProductItem = () => {
           </div>
           <div className="bx--row">
             <div className="bx--col ">
-              <Link
-                to="/"
-                title="product item link"
-                className="lc-button lc-button__default lc-button__full-width"
-              >
-                Buy now
-              </Link>
+              <ButtonDefault linkFullWidth={true} />
             </div>
           </div>
         </div>
@@ -230,13 +203,7 @@ const ProductItem = () => {
           </div>
           <div className="bx--row">
             <div className="bx--col ">
-              <Link
-                to="/"
-                title="product item link"
-                className="lc-button lc-button__default lc-button__full-width"
-              >
-                Buy now
-              </Link>
+              <ButtonDefault linkFullWidth={true} />
             </div>
           </div>
         </div>
@@ -269,13 +236,7 @@ const ProductItem = () => {
           </div>
           <div className="bx--row">
             <div className="bx--col ">
-              <Link
-                to="/"
-                title="product item link"
-                className="lc-button lc-button__default lc-button__full-width"
-              >
-                Buy now
-              </Link>
+              <ButtonDefault linkFullWidth={true} />
             </div>
           </div>
         </div>

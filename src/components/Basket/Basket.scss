@@ -1,0 +1,18 @@
+@import "../Scss/Variables";
+@import "../Scss/Mixins";
+@import "../Scss/Globals";
+
+.lc-button__basket {
+  @include button-reset;
+  position: relative;
+
+  &__number {
+    position: absolute;
+    @include font-poppins($size: 12px, $ls: 0.0625rem);
+    @include var(color, main-color-primary);
+    @include var(font-weight, main-font-medium);
+    top: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

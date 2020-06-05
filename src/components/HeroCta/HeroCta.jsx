@@ -2,6 +2,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+// import components
+import ButtonDefault from "../Buttons/ButtonDefault/ButtonDefault";
+
 const HeroCta = () => {
   return (
     <div className="bx--grid bx--grid--full-width lc-hero-cta">
@@ -28,9 +31,7 @@ const HeroCta = () => {
           </Link>
           <div className="bx--col lc-hero-cta__content">
             <h2 className="lc-type__header__h2 lc-text__uppercase">Brushes CTA</h2>
-            <Link to="/" title="hero-cta" className="lc-button lc-button__default">
-              Shop
-            </Link>
+            <ButtonDefault linkFullWidth={false} />
           </div>
         </div>
       </div>

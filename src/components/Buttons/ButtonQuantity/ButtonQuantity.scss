@@ -13,6 +13,7 @@
   border-bottom: 1px solid transparent;
   border-left: 1px solid transparent;
   @include var(border-color, main-color-secondary);
+  margin-bottom: 1rem;
 
   > div {
     &:first-of-type {

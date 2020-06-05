@@ -3,8 +3,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 // import components
-import MainMenu from "../MainMenu/MainMenu";
 import CurrencySelector from "../CurrencySelector/CurrencySelector";
+import Basket from "../Basket/Basket";
+import MainMenu from "../MainMenu/MainMenu";
 
 const Header = () => {
   return (
@@ -23,13 +24,7 @@ const Header = () => {
               <CurrencySelector />
             </div>
             <div className="bx--col lc-header__items lc-header__items__basket">
-              <Link to="/" title="Basket items: 0" className="lc-button">
-                <img
-                  src="/assets/icons/icons-header-shopping-bag-small.svg"
-                  alt="shopping basket"
-                />
-                <span className="lc-header__items__basket__number">0</span>
-              </Link>
+              <Basket />
             </div>
             <div className="bx--col lc-header__items lc-header__items__menu">
               <MainMenu />

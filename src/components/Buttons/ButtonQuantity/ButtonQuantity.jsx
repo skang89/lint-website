@@ -3,7 +3,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 // import style
-import "./Quantity.scss";
+import "./ButtonQuantity.scss";
 
 const Quantity = (props) => {
   const { label } = props;

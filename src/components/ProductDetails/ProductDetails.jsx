@@ -3,7 +3,8 @@ import React from "react";
 
 // import components
 import ProductImages from "./../ProductImages/ProductImages";
-import Quantity from "../Buttons/Quantity/Quantity";
+import ButtonQuantity from "../Buttons/ButtonQuantity/ButtonQuantity";
+import ButtonDefault from "../Buttons/ButtonDefault/ButtonDefault";
 
 const ProductDetails = () => {
   return (
@@ -25,7 +26,10 @@ const ProductDetails = () => {
             <ProductImages />
           </div>
           <div className="bx--col-4 bx--col-lg-3 bx--col-xlg-3 lc-product-details__info">
-            <Quantity label={"Quantity"} />
+            <ButtonQuantity label={"Quantity"} />
+          </div>
+          <div className="bx--col-4 bx--col-lg-3 bx--col-xlg-3 lc-product-details__info">
+            <ButtonDefault linkFullWidth={true} />
           </div>
         </div>
       </div>
