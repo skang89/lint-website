@@ -5,20 +5,21 @@ import React from "react";
 import ButtonDropdown from "../Buttons/ButtonDropdown/ButtonDropdown";
 
 // import style
-import "./DeliveryReturns.scss";
+import "./CustomerReviews.scss";
 
-const DeliveryReturns = () => {
+const CustomerReviews = () => {
   return (
-    <div className="lc-delivery-returns">
+    <div className="lc-reviews">
       <div className="bx--row">
         <div className="bx--col">
           <ButtonDropdown
-            buttonTitle="Delivery & Returns"
-            buttonTargetClasses=".lc-collapse.lc-delivery-returns__copy"
+            buttonTitle="Reviews"
+            buttonTargetClasses=".lc-collapse.lc-reviews__reviews"
+            buttonReviews={true}
           />
         </div>
       </div>
-      <div className="bx--row lc-delivery-returns__copy lc-collapse">
+      <div className="bx--row lc-reviews__reviews lc-collapse">
         <div className="bx--col lc-type__body__b2">
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae voluptates
@@ -31,4 +32,4 @@ const DeliveryReturns = () => {
     </div>
   );
 };
-export default DeliveryReturns;
+export default CustomerReviews;

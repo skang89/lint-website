@@ -8,6 +8,7 @@ import ButtonDefault from "../Buttons/ButtonDefault/ButtonDefault";
 import ButtonFav from "../Buttons/ButtonFav/ButtonFav";
 import ProductDescription from "../ProductDescription/ProductDescription";
 import DeliveryReturns from "../DeliveryReturns/DeliveryReturns";
+import CustomerReviews from "../CustomerReviews/CustomerReviews";
 
 const ProductDetails = () => {
   return (
@@ -53,6 +54,11 @@ const ProductDetails = () => {
               <div className="bx--row">
                 <div className="bx--col">
                   <DeliveryReturns />
+                </div>
+              </div>
+              <div className="bx--row">
+                <div className="bx--col">
+                  <CustomerReviews />
                 </div>
               </div>
             </div>
