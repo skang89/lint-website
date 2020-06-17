@@ -6,6 +6,8 @@ import ProductImages from "./../ProductImages/ProductImages";
 import ButtonQuantity from "../Buttons/ButtonQuantity/ButtonQuantity";
 import ButtonDefault from "../Buttons/ButtonDefault/ButtonDefault";
 import ButtonFav from "../Buttons/ButtonFav/ButtonFav";
+import ProductDescription from "../ProductDescription/ProductDescription";
+import DeliveryReturns from "../DeliveryReturns/DeliveryReturns";
 
 const ProductDetails = () => {
   return (
@@ -23,10 +25,10 @@ const ProductDetails = () => {
         </div>
 
         <div className="bx--row ">
-          <div className="bx--col-4 bx--col-lg-8 bx--col-xlg-8 lc-product-details__images">
+          <div className="bx--col-4 bx--col-lg-7 bx--col-xlg-8 lc-product-details__images">
             <ProductImages />
           </div>
-          <div className="bx--col-4 bx--col-lg-3 bx--col-xlg-3 lc-product-details__info">
+          <div className="bx--col-4 bx--col-lg-4 bx--col-xlg-3 lc-product-details__info">
             <div className="">
               <div className="bx--row">
                 <div className="bx--col">
@@ -45,15 +47,12 @@ const ProductDetails = () => {
               </div>
               <div className="bx--row">
                 <div className="bx--col lc-type__body__b2">
-                  <p>
-                    Description of product Description of product Description of product
-                  </p>
-                  <p>
-                    Description of product Description of product Description of product
-                  </p>
-                  <p>
-                    Description of product Description of product Description of product
-                  </p>
+                  <ProductDescription />
+                </div>
+              </div>
+              <div className="bx--row">
+                <div className="bx--col">
+                  <DeliveryReturns />
                 </div>
               </div>
             </div>

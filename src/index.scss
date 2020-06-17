@@ -40,6 +40,17 @@ a {
   text-decoration: inherit;
 }
 
+// default collapsed styles
+.lc-collapse {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  &.show {
+    max-height: 99rem;
+    transition: max-height 0.5s ease-in;
+  }
+}
+
 // import component styles
 @import "./components/Header/Header";
 @import "./components/OfferBanner/OfferBanner";
