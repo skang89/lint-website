@@ -47,7 +47,7 @@ const ProductDetails = () => {
                 </div>
               </div>
               <div className="bx--row">
-                <div className="bx--col lc-type__body__b2">
+                <div className="bx--col">
                   <ProductDescription />
                 </div>
               </div>
@@ -64,6 +64,7 @@ const ProductDetails = () => {
             </div>
           </div>
         </div>
+        <div className="bx--row"></div>
       </div>
     </>
   );

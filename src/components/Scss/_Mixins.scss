@@ -63,3 +63,20 @@
   border-width: 0 8px 8px 8px;
   border-color: transparent transparent #000000 transparent;
 }
+
+// dividing border
+@mixin divider($bcolor: false) {
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-top: 1px solid;
+    @if $bcolor {
+      border-color: $bcolor;
+    }
+  }
+}

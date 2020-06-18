@@ -3,6 +3,8 @@ import React from "react";
 
 // import components
 import ButtonDropdown from "../Buttons/ButtonDropdown/ButtonDropdown";
+import ButtonSecondary from "../Buttons/ButtonSecondary/ButtonSecondary";
+import ReviewSingle from "../ReviewSingle/ReviewSingle";
 
 // import style
 import "./CustomerReviews.scss";
@@ -19,14 +21,17 @@ const CustomerReviews = () => {
           />
         </div>
       </div>
-      <div className="bx--row lc-reviews__reviews lc-collapse">
-        <div className="bx--col lc-type__body__b2">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae voluptates
-            assumenda hic asperiores ut quos iure rem consequatur suscipit autem
-            temporibus dolores eligendi vero veritatis voluptatibus, expedita voluptas id
-            repellat!
-          </p>
+      <div className="lc-reviews__reviews lc-collapse">
+        <div className="bx--row">
+          <div className="bx--col">
+            <ButtonSecondary linkText="Write a review" linkFullWidth={true} />
+          </div>
+        </div>
+        <div className="bx--row">
+          <div className="bx--col lc-reviews__copy lc-type__body__b2">
+            <ReviewSingle />
+            <ReviewSingle />
+          </div>
         </div>
       </div>
     </div>

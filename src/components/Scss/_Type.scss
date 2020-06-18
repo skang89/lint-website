@@ -159,6 +159,7 @@
 
   // body
   &__body {
+    &__b1,
     &__b1 p {
       @include font-poppins($size: 0.875rem, $lh: 1.5rem, $ls: 0.125rem);
       @include var(color, main-color-default);
@@ -178,6 +179,7 @@
       }
     }
 
+    &__b2,
     &__b2 p {
       @include font-poppins($size: 0.875rem, $lh: 1.5rem, $ls: 0.125rem);
       @include var(color, main-color-default);
@@ -197,6 +199,9 @@
       }
     }
 
+    &__b3,
+    &__b4,
+    &__b5,
     &__b3 p,
     &__b4 p,
     &__b5 p {
