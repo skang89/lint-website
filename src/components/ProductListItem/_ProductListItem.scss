@@ -1,32 +1,9 @@
 .lc-product-items {
-  &__item {
+  > div > div {
     margin-bottom: $layout-04;
 
     @include mq("xlarge") {
       margin-bottom: $layout-05;
     }
-
-    img {
-      width: 100%;
-      height: 176px;
-      object-fit: cover;
-      object-position: center;
-
-      @include mq("large") {
-        height: 304px;
-      }
-
-      @include mq("xlarge") {
-        height: 392px;
-      }
-
-      @include mq("max") {
-        height: 480px;
-      }
-    }
-  }
-
-  &__details {
-    margin: $spacing-03 0;
   }
 }

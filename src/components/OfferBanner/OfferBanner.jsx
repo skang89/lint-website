@@ -8,7 +8,7 @@ const OfferBanner = () => {
       <div className="bx--row">
         <div className="bx--col">
           <Link to="/" title="Banner title">
-            <h3 className="lc-type__meta__s3 lc-type__meta__s3--light lc-type__meta__s3--bold lc-text__center lc-text__uppercase lc-offer-banner__headline">
+            <h3 className="lc-type__meta__s3 lc-type__meta__s3--bold lc-text__center lc-text__uppercase lc-offer-banner__headline">
               This is some text for an offer &nbsp;<span></span>
             </h3>
           </Link>

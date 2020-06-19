@@ -18,6 +18,7 @@
   --main-color-default: #{map-get($colors, main-color-default)};
   --main-color-primary: #{map-get($colors, main-color-primary)};
   --main-color-secondary: #{map-get($colors, main-color-secondary)};
+  --main-color-tertiary: #{map-get($colors, main-color-tertiary)};
   --main-font-light: #{map-get($weights, main-font-light)};
   --main-font-medium: #{map-get($weights, main-font-medium)};
   --main-font-bold: #{map-get($weights, main-font-bold)};
@@ -58,5 +59,4 @@ a {
 @import "./components/ProductType/ProductType";
 @import "./components/ProductListItem/ProductListItem";
 @import "./components/ProductDetails/ProductDetails";
-@import "./components/ProductImages/ProductImages";
 @import "./components/Footer/Footer";

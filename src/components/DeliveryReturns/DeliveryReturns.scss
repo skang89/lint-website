@@ -3,7 +3,7 @@
 @import "../Scss/Globals";
 
 .lc-delivery-returns {
-  @include divider($bcolor: #b4b4b4);
+  @include divider;
 
   &__copy div {
     margin-bottom: 40px;

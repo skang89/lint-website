@@ -65,7 +65,7 @@
 }
 
 // dividing border
-@mixin divider($bcolor: false) {
+@mixin divider($bcolor: #b4b4b4) {
   position: relative;
 
   &:before {

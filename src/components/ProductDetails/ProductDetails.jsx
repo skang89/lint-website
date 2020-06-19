@@ -9,6 +9,7 @@ import ButtonFav from "../Buttons/ButtonFav/ButtonFav";
 import ProductDescription from "../ProductDescription/ProductDescription";
 import DeliveryReturns from "../DeliveryReturns/DeliveryReturns";
 import CustomerReviews from "../CustomerReviews/CustomerReviews";
+import ConsiderItems from "../ConsiderItems/ConsiderItems";
 
 const ProductDetails = () => {
   return (
@@ -26,7 +27,7 @@ const ProductDetails = () => {
         </div>
 
         <div className="bx--row ">
-          <div className="bx--col-4 bx--col-lg-7 bx--col-xlg-8 lc-product-details__images">
+          <div className="bx--col-4 bx--col-lg-7 bx--col-xlg-8">
             <ProductImages />
           </div>
           <div className="bx--col-4 bx--col-lg-4 bx--col-xlg-3 lc-product-details__info">
@@ -64,7 +65,11 @@ const ProductDetails = () => {
             </div>
           </div>
         </div>
-        <div className="bx--row"></div>
+        <div className="bx--row">
+          <div className="bx--col">
+            <ConsiderItems />
+          </div>
+        </div>
       </div>
     </>
   );

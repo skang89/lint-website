@@ -1,9 +1,12 @@
 // import react packages
 import React from "react";
 
+// import styles
+import "./ProductImages.scss";
+
 const ProductImages = () => {
   return (
-    <>
+    <div className="lc-product-details__images">
       <div className="bx--row">
         <div className="bx--col-sm-4 bx--col-lg-6">
           <picture>
@@ -78,7 +81,7 @@ const ProductImages = () => {
           </picture>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

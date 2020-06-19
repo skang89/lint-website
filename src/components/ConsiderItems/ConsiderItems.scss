@@ -1,0 +1,15 @@
+@import "../Scss/Variables";
+@import "../Scss/Mixins";
+@import "../Scss/Globals";
+
+.lc-consider-items {
+  @include divider;
+
+  @include mq("large") {
+    margin-top: 5rem;
+  }
+
+  h2 {
+    margin: 1.5rem 0 2.5rem 0;
+  }
+}
