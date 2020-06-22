@@ -1,0 +1,36 @@
+@import "../Scss/Variables";
+@import "../Scss/Mixins";
+@import "../Scss/Globals";
+
+.lc-basket {
+  margin-top: 1.5rem;
+
+  &__title {
+    margin-bottom: 2.5rem;
+  }
+
+  &__items {
+    img {
+      width: 100%;
+      height: 176px;
+      object-fit: cover;
+      object-position: center;
+
+      @include mq("large") {
+        height: 304px;
+      }
+
+      @include mq("xlarge") {
+        height: 392px;
+      }
+
+      @include mq("max") {
+        height: 480px;
+      }
+    }
+
+    &__details {
+      margin: 0.5rem 0;
+    }
+  }
+}

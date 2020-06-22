@@ -1,0 +1,15 @@
+@import "../../Scss/Variables";
+@import "../../Scss/Mixins";
+@import "../../Scss/Globals";
+
+.lc-remove {
+  &__button {
+    @include button-reset;
+    @include var(background-color, main-color-primary);
+    @include font-poppins($size: 0.875rem, $lh: 0.875rem, $ls: 0.125rem);
+    @include var(font-weight, main-font-light);
+    @include var(color, main-color-default);
+    display: inline-block;
+    user-select: none;
+  }
+}

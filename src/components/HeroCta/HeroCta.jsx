@@ -5,6 +5,9 @@ import { Link } from "react-router-dom";
 // import components
 import ButtonDefault from "../Buttons/ButtonDefault/ButtonDefault";
 
+// import styles
+import "./HeroCta.scss";
+
 const HeroCta = () => {
   return (
     <div className="bx--grid bx--grid--full-width lc-hero-cta">

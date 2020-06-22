@@ -31,7 +31,19 @@ const ProductDetails = () => {
             <ProductImages />
           </div>
           <div className="bx--col-4 bx--col-lg-4 bx--col-xlg-3 lc-product-details__info">
-            <div className="">
+            <div>
+              <div className="bx--row lc-product-details__info__title">
+                <div className="bx--col">
+                  <h2 className="lc-type__header__h1  lc-type__header__h1--bold lc-text__uppercase ">
+                    L1 Brush
+                  </h2>
+                </div>
+              </div>
+              <div className="bx--row lc-product-details__info__price">
+                <div className="bx--col">
+                  <h2 className="lc-type__header__h1">£15.99</h2>
+                </div>
+              </div>
               <div className="bx--row">
                 <div className="bx--col">
                   <ButtonQuantity label={"Quantity"} />
