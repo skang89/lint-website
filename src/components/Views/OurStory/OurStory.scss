@@ -1,0 +1,19 @@
+@import "../../Scss/Variables";
+@import "../../Scss/Mixins";
+@import "../../Scss/Globals";
+
+div.lc-our-story {
+  &__title {
+    margin-top: 1rem;
+    margin-bottom: 1.625rem;
+  }
+
+  &__content {
+    margin-bottom: 9rem;
+
+    > div {
+      max-width: 480px;
+      margin: auto;
+    }
+  }
+}

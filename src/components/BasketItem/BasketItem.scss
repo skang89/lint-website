@@ -2,7 +2,7 @@
 @import "../Scss/Mixins";
 @import "../Scss/Globals";
 
-.lc-basket {
+div.lc-basket {
   margin-top: 1.5rem;
 
   &__title {
@@ -50,10 +50,10 @@
 
     &__title {
       margin-bottom: 0.5rem;
-      display: none !important;
+      display: none;
 
       @include mq("large") {
-        display: block !important;
+        display: block;
         margin-bottom: 3rem;
       }
     }
