@@ -1,0 +1,29 @@
+@import "../Scss/Variables";
+@import "../Scss/Mixins";
+@import "../Scss/Globals";
+
+.lc-triangle-bottom {
+  position: relative;
+
+  &__left {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 120px 0px 0 64px;
+    border-color: #000000 transparent transparent transparent;
+    bottom: -6rem;
+    left: 0;
+  }
+
+  &__right {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 64px 64px;
+    border-color: transparent transparent #000000 transparent;
+    bottom: -6rem;
+    right: 0;
+  }
+}

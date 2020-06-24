@@ -4,6 +4,7 @@ import React from "react";
 // import components
 import Header from "../../Header/Header";
 import Footer from "../../Footer/Footer";
+import TriangleBannerBottom from "../../TriangleBannerBottom/TriangleBannerBottom";
 
 // import styles
 import "./OurStory.scss";
@@ -45,6 +46,7 @@ const OurStory = () => {
           </div>
         </div>
       </div>
+      <TriangleBannerBottom />
       <Footer />
     </>
   );
