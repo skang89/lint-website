@@ -1,0 +1,14 @@
+@import "../../Scss/Variables";
+@import "../../Scss/Mixins";
+@import "../../Scss/Globals";
+
+.lc-login {
+  h1 {
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+
+    @include mq("large") {
+      text-align: center;
+    }
+  }
+}
