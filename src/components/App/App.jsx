@@ -9,6 +9,7 @@ import ProductSingle from "../Views/ProductSingle/ProductSingle";
 import Basket from "../Views/Basket/Basket";
 import OurStory from "../Views/OurStory/OurStory";
 import Login from "../Views/Login/Login";
+import Orders from "../Views/Orders/Orders";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route exact path="/basket" component={Basket} />
         <Route exact path="/our-story" component={OurStory} />
         <Route exact path="/login" component={Login} />
+        <Route exact path="/account/orders" component={Orders} />
       </Switch>
     </Router>
   );

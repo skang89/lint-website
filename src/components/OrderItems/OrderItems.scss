@@ -1,0 +1,19 @@
+@import "../Scss/Variables";
+@import "../Scss/Mixins";
+@import "../Scss/Globals";
+
+.lc-order-items {
+  margin-top: 2.5rem;
+
+  &__item {
+    margin-bottom: 2.5rem;
+  }
+
+  picture,
+  img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+}

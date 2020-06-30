@@ -1,0 +1,16 @@
+@import "../Scss/Variables";
+@import "../Scss/Mixins";
+@import "../Scss/Globals";
+
+.lc-member-menu {
+  margin-top: 2.5rem;
+
+  li {
+    text-transform: uppercase;
+    margin-bottom: 1.125rem;
+
+    &.lc-member-menu--active {
+      @include var(font-weight, main-font-medium);
+    }
+  }
+}
