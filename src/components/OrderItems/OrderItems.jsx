@@ -1,6 +1,5 @@
 // import react packages
 import React from "react";
-import { Link } from "react-router-dom";
 
 // import styles
 import "./OrderItems.scss";
@@ -12,24 +11,19 @@ const OrderItems = () => {
         <div className="bx--col-sm-2 bx--col-md-4 bx--col-lg-4 lc-order-items__item">
           <div className="bx--row">
             <div className="bx--col">
-              <Link to="" title="">
-                <picture>
-                  <source
-                    media="(max-width: 1055px)"
-                    srcset="/assets/product/Placeholder_Mobile.png"
-                    alt="Order item image"
-                  />
-                  <source
-                    media="(min-width: 1056px)"
-                    srcset="/assets/product/Placeholder.png"
-                    alt="Order item image"
-                  />
-                  <img
-                    src="/assets/product/Placeholder_Default.jpg"
-                    alt="Order item image"
-                  />
-                </picture>
-              </Link>
+              <picture>
+                <source
+                  media="(max-width: 1055px)"
+                  srcSet="/assets/product/Placeholder_Mobile.png"
+                  alt="Order item"
+                />
+                <source
+                  media="(min-width: 1056px)"
+                  srcSet="/assets/product/Placeholder.png"
+                  alt="Order item"
+                />
+                <img src="/assets/product/Placeholder_Default.jpg" alt="Order item" />
+              </picture>
             </div>
           </div>
           <div className="bx--row">
@@ -54,24 +48,19 @@ const OrderItems = () => {
         <div className="bx--col-sm-2 bx--col-md-4 bx--col-lg-4 lc-order-items__item">
           <div className="bx--row">
             <div className="bx--col">
-              <Link to="" title="">
-                <picture>
-                  <source
-                    media="(max-width: 1055px)"
-                    srcset="/assets/product/Placeholder_Mobile.png"
-                    alt="Order item image"
-                  />
-                  <source
-                    media="(min-width: 1056px)"
-                    srcset="/assets/product/Placeholder.png"
-                    alt="Order item image"
-                  />
-                  <img
-                    src="/assets/product/Placeholder_Default.jpg"
-                    alt="Order item image"
-                  />
-                </picture>
-              </Link>
+              <picture>
+                <source
+                  media="(max-width: 1055px)"
+                  srcSet="/assets/product/Placeholder_Mobile.png"
+                  alt="Order item"
+                />
+                <source
+                  media="(min-width: 1056px)"
+                  srcSet="/assets/product/Placeholder.png"
+                  alt="Order item"
+                />
+                <img src="/assets/product/Placeholder_Default.jpg" alt="Order item" />
+              </picture>
             </div>
           </div>
           <div className="bx--row">
@@ -96,24 +85,19 @@ const OrderItems = () => {
         <div className="bx--col-sm-2 bx--col-md-4 bx--col-lg-4 lc-order-items__item">
           <div className="bx--row">
             <div className="bx--col">
-              <Link to="" title="">
-                <picture>
-                  <source
-                    media="(max-width: 1055px)"
-                    srcset="/assets/product/Placeholder_Mobile.png"
-                    alt="Order item image"
-                  />
-                  <source
-                    media="(min-width: 1056px)"
-                    srcset="/assets/product/Placeholder.png"
-                    alt="Order item image"
-                  />
-                  <img
-                    src="/assets/product/Placeholder_Default.jpg"
-                    alt="Order item image"
-                  />
-                </picture>
-              </Link>
+              <picture>
+                <source
+                  media="(max-width: 1055px)"
+                  srcSet="/assets/product/Placeholder_Mobile.png"
+                  alt="Order item"
+                />
+                <source
+                  media="(min-width: 1056px)"
+                  srcSet="/assets/product/Placeholder.png"
+                  alt="Order item"
+                />
+                <img src="/assets/product/Placeholder_Default.jpg" alt="Order item" />
+              </picture>
             </div>
           </div>
           <div className="bx--row">
@@ -138,24 +122,19 @@ const OrderItems = () => {
         <div className="bx--col-sm-2 bx--col-md-4 bx--col-lg-4 lc-order-items__item">
           <div className="bx--row">
             <div className="bx--col">
-              <Link to="" title="">
-                <picture>
-                  <source
-                    media="(max-width: 1055px)"
-                    srcset="/assets/product/Placeholder_Mobile.png"
-                    alt="Order item image"
-                  />
-                  <source
-                    media="(min-width: 1056px)"
-                    srcset="/assets/product/Placeholder.png"
-                    alt="Order item image"
-                  />
-                  <img
-                    src="/assets/product/Placeholder_Default.jpg"
-                    alt="Order item image"
-                  />
-                </picture>
-              </Link>
+              <picture>
+                <source
+                  media="(max-width: 1055px)"
+                  srcSet="/assets/product/Placeholder_Mobile.png"
+                  alt="Order item"
+                />
+                <source
+                  media="(min-width: 1056px)"
+                  srcSet="/assets/product/Placeholder.png"
+                  alt="Order item"
+                />
+                <img src="/assets/product/Placeholder_Default.jpg" alt="Order item" />
+              </picture>
             </div>
           </div>
           <div className="bx--row">

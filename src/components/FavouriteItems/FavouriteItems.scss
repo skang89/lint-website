@@ -2,8 +2,10 @@
 @import "../Scss/Mixins";
 @import "../Scss/Globals";
 
-.lc-product-items {
+.lc-favourite-items {
   &__item {
+    margin-bottom: 3rem;
+
     picture,
     img {
       width: 100%;

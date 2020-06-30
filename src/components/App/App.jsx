@@ -10,6 +10,7 @@ import Basket from "../Views/Basket/Basket";
 import OurStory from "../Views/OurStory/OurStory";
 import Login from "../Views/Login/Login";
 import Orders from "../Views/Orders/Orders";
+import Favourites from "../Views/Favourites/Favourites";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route exact path="/our-story" component={OurStory} />
         <Route exact path="/login" component={Login} />
         <Route exact path="/account/orders" component={Orders} />
+        <Route exact path="/account/favourites" component={Favourites} />
       </Switch>
     </Router>
   );
