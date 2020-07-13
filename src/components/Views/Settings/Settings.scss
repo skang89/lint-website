@@ -1,0 +1,28 @@
+@import "../../Scss/Variables";
+@import "../../Scss/Mixins";
+@import "../../Scss/Globals";
+
+.lc-settings {
+  h1,
+  h2 {
+    margin-top: 1.5rem;
+
+    @include mq("large") {
+      margin-top: 2.5rem;
+    }
+  }
+
+  &__delete-account {
+    @include divider;
+    margin-top: 2.5rem;
+
+    &:before {
+      margin-right: 1rem;
+      margin-left: 1rem;
+    }
+
+    a {
+      margin-top: 3rem;
+    }
+  }
+}

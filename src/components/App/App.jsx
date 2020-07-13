@@ -11,6 +11,7 @@ import OurStory from "../Views/OurStory/OurStory";
 import Login from "../Views/Login/Login";
 import Orders from "../Views/Orders/Orders";
 import Favourites from "../Views/Favourites/Favourites";
+import Settings from "../Views/Settings/Settings";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         <Route exact path="/login" component={Login} />
         <Route exact path="/account/orders" component={Orders} />
         <Route exact path="/account/favourites" component={Favourites} />
+        <Route exact path="/account/settings" component={Settings} />
       </Switch>
     </Router>
   );

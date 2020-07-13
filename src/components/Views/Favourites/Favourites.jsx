@@ -11,7 +11,7 @@ import FavouriteItems from "../../FavouriteItems/FavouriteItems";
 // import styles
 import "./Favourites.scss";
 
-const Orders = () => {
+const Favourites = () => {
   return (
     <>
       <Header />
@@ -35,4 +35,4 @@ const Orders = () => {
   );
 };
 
-export default Orders;
+export default Favourites;

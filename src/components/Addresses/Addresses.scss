@@ -1,0 +1,32 @@
+@import "../Scss/Variables";
+@import "../Scss/Mixins";
+@import "../Scss/Globals";
+
+.lc-default-address,
+.lc-other-addresses {
+  &__title {
+    h3 {
+      margin-top: 2rem;
+    }
+  }
+
+  &__address {
+    > div {
+      margin-top: 0.5rem;
+    }
+
+    p {
+      @include font-poppins($size: 0.75rem, $lh: 1.375rem, $ls: 0.0625rem);
+      @include var(color, main-color-default);
+      @include var(font-weight, main-font-light);
+    }
+  }
+
+  &__button {
+    margin-top: 1rem;
+  }
+}
+
+.lc-other-addresses {
+  margin-bottom: 2.5rem;
+}
