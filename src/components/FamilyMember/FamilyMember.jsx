@@ -17,37 +17,35 @@ const FamilyMember = () => {
         .getComputedStyle(memberImage, null)
         .getPropertyValue("height");
 
-      return (
-        memberDetails.forEach((member) => {
-          return (
-            member.setAttribute(
-              "style",
-              `width: ${triangleWidth}; height: ${triangleHeight};`
-            ),
-            member.classList.contains("lc-triangle__top-right")
-              ? member.firstElementChild.setAttribute(
-                  "style",
-                  `border-width: 0 ${triangleWidth} ${triangleHeight} 0; border-color: transparent #000000 transparent transparent;`
-                )
-              : member.classList.contains("lc-triangle__bottom-right")
-              ? member.firstElementChild.setAttribute(
-                  "style",
-                  `border-width: 0 0 ${triangleHeight} ${triangleWidth}; border-color: transparent transparent #000000 transparent;`
-                )
-              : member.classList.contains("lc-triangle__bottom-left")
-              ? member.firstElementChild.setAttribute(
-                  "style",
-                  `border-width: ${triangleHeight} 0 0 ${triangleWidth}; border-color: transparent transparent transparent #000000;`
-                )
-              : member.classList.contains("lc-triangle__top-left")
-              ? member.firstElementChild.setAttribute(
-                  "style",
-                  `border-width: ${triangleHeight} ${triangleWidth} 0 0; border-color: #000000 transparent transparent transparent ;`
-                )
-              : null
-          );
-        }),
-      );
+      return memberDetails.forEach((member) => {
+        return (
+          member.setAttribute(
+            "style",
+            `width: ${triangleWidth}; height: ${triangleHeight};`
+          ),
+          member.classList.contains("lc-triangle__top-right")
+            ? member.firstElementChild.setAttribute(
+                "style",
+                `border-width: 0 ${triangleWidth} ${triangleHeight} 0; border-color: transparent #000000 transparent transparent;`
+              )
+            : member.classList.contains("lc-triangle__bottom-right")
+            ? member.firstElementChild.setAttribute(
+                "style",
+                `border-width: 0 0 ${triangleHeight} ${triangleWidth}; border-color: transparent transparent #000000 transparent;`
+              )
+            : member.classList.contains("lc-triangle__bottom-left")
+            ? member.firstElementChild.setAttribute(
+                "style",
+                `border-width: ${triangleHeight} 0 0 ${triangleWidth}; border-color: transparent transparent transparent #000000;`
+              )
+            : member.classList.contains("lc-triangle__top-left")
+            ? member.firstElementChild.setAttribute(
+                "style",
+                `border-width: ${triangleHeight} ${triangleWidth} 0 0; border-color: #000000 transparent transparent transparent ;`
+              )
+            : null
+        );
+      });
     };
 
     window.addEventListener("resize", resizeTriangle);
