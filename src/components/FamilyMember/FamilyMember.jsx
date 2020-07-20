@@ -47,8 +47,6 @@ const FamilyMember = () => {
               : null
           );
         }),
-        console.log(memberDetails),
-        console.log(triangleWidth, triangleHeight)
       );
     };
 
