@@ -8,7 +8,6 @@ const FamilyMember = () => {
   useEffect(() => {
     const memberImage = document.querySelector(".lc-family-member__image img");
     const memberDetails = document.querySelectorAll(".lc-family-member__details");
-    const memberBorder = document.querySelector(".lc-family-member__details--border");
 
     const resizeTriangle = () => {
       const triangleWidth = window
