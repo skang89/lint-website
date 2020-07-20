@@ -1,0 +1,54 @@
+@import "../Scss/Variables";
+@import "../Scss/Mixins";
+@import "../Scss/Globals";
+
+body .lc-family-member {
+  &__image {
+    margin-bottom: 1rem;
+
+    picture,
+    img {
+      width: 100%;
+      height: max-content;
+      object-fit: cover;
+      object-position: center;
+      display: flex;
+    }
+  }
+
+  &__details {
+    position: relative;
+    margin-bottom: 1rem;
+
+    &--border {
+      content: "";
+      position: absolute;
+      display: inline-block;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      z-index: -99;
+    }
+
+    &.lc-triangle__top-right,
+    &.lc-triangle__bottom-right {
+      p {
+        text-align: right;
+      }
+    }
+
+    &.lc-triangle__bottom-right,
+    &.lc-triangle__bottom-left {
+      .lc-family-member__details__copy {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: flex-end;
+      }
+    }
+
+    &__copy {
+      padding: 0.5rem 1rem;
+    }
+  }
+}

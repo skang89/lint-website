@@ -12,6 +12,7 @@ import Login from "../Views/Login/Login";
 import Orders from "../Views/Orders/Orders";
 import Favourites from "../Views/Favourites/Favourites";
 import Settings from "../Views/Settings/Settings";
+import LintFamily from "../Views/LintFamily/LintFamily";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route exact path="/products/item" component={ProductSingle} />
         <Route exact path="/basket" component={Basket} />
         <Route exact path="/our-story" component={OurStory} />
+        <Route exact path="/lint-family" component={LintFamily} />
         <Route exact path="/login" component={Login} />
         <Route exact path="/account/orders" component={Orders} />
         <Route exact path="/account/favourites" component={Favourites} />
