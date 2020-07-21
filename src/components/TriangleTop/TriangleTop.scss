@@ -3,13 +3,22 @@
 @import "../Scss/Globals";
 
 body .lc-triangle-top {
-  position: relative;
-  padding: 0;
-
   &__shape {
     width: 0;
     height: 0;
     border-style: solid;
     border-color: #000000 transparent transparent transparent;
+    transition: border-width 0.2s ease-out;
+
+    @include mq("medium") {
+      border-width: 140px 144px 0 144px;
+      margin: auto;
+      position: relative;
+      top: -56px;
+    }
+
+    @include mq("large") {
+      border-width: 168px 176px 0 176px;
+    }
   }
 }
