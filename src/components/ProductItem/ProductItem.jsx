@@ -66,7 +66,7 @@ const ProductItem = (props) => {
 ProductItem.defaultProps = {
   productUrl: "/",
   productName: "L1 Brush",
-  productImageDefault: "/assets/product/Placeholder_Default.jpg",
+  productImageDefault: "/assets/product/Placeholder_Default.png",
   productImageMobile: "/assets/product/Placeholder_Mobile.png",
   productImageLarge: "/assets/product/Placeholder.png",
   productButtonText: "Buy now",

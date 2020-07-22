@@ -39,7 +39,7 @@ const BasketItem = () => {
                       srcset="/assets/product/Placeholder.png"
                       alt="L1 Brush"
                     />
-                    <img src="/assets/product/Placeholder_Default.jpg" alt="L1 Brush" />
+                    <img src="/assets/product/Placeholder_Default.png" alt="L1 Brush" />
                   </picture>
                 </Link>
                 <div className="bx--row">
@@ -76,7 +76,7 @@ const BasketItem = () => {
                       srcset="/assets/product/Placeholder.png"
                       alt="L1 Brush"
                     />
-                    <img src="/assets/product/Placeholder_Default.jpg" alt="L1 Brush" />
+                    <img src="/assets/product/Placeholder_Default.png" alt="L1 Brush" />
                   </picture>
                 </Link>
                 <div className="bx--row">
@@ -113,7 +113,7 @@ const BasketItem = () => {
                       srcset="/assets/product/Placeholder.png"
                       alt="L1 Brush"
                     />
-                    <img src="/assets/product/Placeholder_Default.jpg" alt="L1 Brush" />
+                    <img src="/assets/product/Placeholder_Default.png" alt="L1 Brush" />
                   </picture>
                 </Link>
                 <div className="bx--row">
@@ -150,7 +150,7 @@ const BasketItem = () => {
                       srcset="/assets/product/Placeholder.png"
                       alt="L1 Brush"
                     />
-                    <img src="/assets/product/Placeholder_Default.jpg" alt="L1 Brush" />
+                    <img src="/assets/product/Placeholder_Default.png" alt="L1 Brush" />
                   </picture>
                 </Link>
                 <div className="bx--row">
@@ -187,7 +187,7 @@ const BasketItem = () => {
                       srcset="/assets/product/Placeholder.png"
                       alt="L1 Brush"
                     />
-                    <img src="/assets/product/Placeholder_Default.jpg" alt="L1 Brush" />
+                    <img src="/assets/product/Placeholder_Default.png" alt="L1 Brush" />
                   </picture>
                 </Link>
                 <div className="bx--row">

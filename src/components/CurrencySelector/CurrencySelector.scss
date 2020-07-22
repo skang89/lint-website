@@ -2,6 +2,98 @@
 @import "../Scss/Mixins";
 @import "../Scss/Globals";
 
-.lc-button__currency {
+body .lc-button__currency {
   @include button-reset;
+}
+
+body .lc-currency__menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  @include var(background-color, main-color-primary);
+  width: 100%;
+  height: 100%;
+  transform: translate3d(0, 100%, 0);
+  visibility: hidden;
+  z-index: 9999;
+  transition: all 0.5s cubic-bezier(0.36, -0.28, 0.68, 1.31);
+
+  &--active {
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  &__button {
+    @include button-reset;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    appearance: none;
+    border-radius: 0;
+    width: 4rem;
+    height: 2.5rem;
+    border: 3px solid transparent;
+    outline: 1px solid transparent;
+    outline-offset: -4px;
+    @include var(background-color, main-color-default);
+    @include var(color, main-color-primary);
+    transition: all 0.5s ease-out;
+    position: relative;
+
+    &:hover,
+    &:active {
+      opacity: 0.7;
+    }
+
+    @include mq("xlarge") {
+      width: 5rem;
+    }
+
+    &:focus {
+      @include var(border-color, main-color-default);
+      @include var(outline-color, main-color-primary);
+      opacity: 1;
+    }
+
+    &__line {
+      position: absolute;
+      height: 1px;
+      width: 16px;
+      top: 50%;
+      left: 37%;
+      @include var(background-color, main-color-primary);
+
+      @include mq("large") {
+        left: 40%;
+      }
+
+      &:first-of-type {
+        transform: rotate(45deg);
+      }
+
+      &:last-of-type {
+        transform: rotate(-45deg);
+      }
+    }
+  }
+
+  &__nav {
+    text-align: center;
+
+    h2 {
+      margin-top: 1.5rem;
+      text-transform: uppercase;
+    }
+
+    nav {
+      margin-top: 3.75rem;
+
+      ul li {
+        margin-bottom: 3.5rem;
+        text-transform: uppercase;
+      }
+    }
+  }
 }

@@ -1,6 +1,10 @@
-.lc-header {
+@import "../Scss/Variables";
+@import "../Scss/Mixins";
+@import "../Scss/Globals";
+
+body .lc-header {
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
   position: relative;
 
   &:after {
@@ -16,8 +20,10 @@
 
   &__logo {
     img {
+      position: relative;
       width: 56px;
       display: block;
+      z-index: 99999;
 
       @include mq("large") {
         width: 86px;

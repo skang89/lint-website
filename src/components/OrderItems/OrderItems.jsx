@@ -22,7 +22,7 @@ const OrderItems = () => {
                   srcSet="/assets/product/Placeholder.png"
                   alt="Order item"
                 />
-                <img src="/assets/product/Placeholder_Default.jpg" alt="Order item" />
+                <img src="/assets/product/Placeholder_Default.png" alt="Order item" />
               </picture>
             </div>
           </div>
@@ -59,7 +59,7 @@ const OrderItems = () => {
                   srcSet="/assets/product/Placeholder.png"
                   alt="Order item"
                 />
-                <img src="/assets/product/Placeholder_Default.jpg" alt="Order item" />
+                <img src="/assets/product/Placeholder_Default.png" alt="Order item" />
               </picture>
             </div>
           </div>
@@ -96,7 +96,7 @@ const OrderItems = () => {
                   srcSet="/assets/product/Placeholder.png"
                   alt="Order item"
                 />
-                <img src="/assets/product/Placeholder_Default.jpg" alt="Order item" />
+                <img src="/assets/product/Placeholder_Default.png" alt="Order item" />
               </picture>
             </div>
           </div>
@@ -133,7 +133,7 @@ const OrderItems = () => {
                   srcSet="/assets/product/Placeholder.png"
                   alt="Order item"
                 />
-                <img src="/assets/product/Placeholder_Default.jpg" alt="Order item" />
+                <img src="/assets/product/Placeholder_Default.png" alt="Order item" />
               </picture>
             </div>
           </div>

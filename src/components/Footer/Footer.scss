@@ -1,6 +1,10 @@
-.lc-footer {
+@import "../Scss/Variables";
+@import "../Scss/Mixins";
+@import "../Scss/Globals";
+
+body .lc-footer {
   position: relative;
-  margin-top: $layout-06;
+  margin-top: 6rem;
   box-shadow: 0 100vh 0 100vh #ffffff;
 
   &:before {
@@ -17,10 +21,10 @@
     width: 32px;
     height: 32px;
     display: inline-block;
-    margin: $spacing-05 $spacing-05 $spacing-07 0;
+    margin: 1rem 1rem 2rem 0;
   }
 
   &__menu {
-    margin-bottom: $layout-05;
+    margin-bottom: 4rem;
   }
 }

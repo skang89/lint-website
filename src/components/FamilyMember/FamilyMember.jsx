@@ -68,7 +68,7 @@ const FamilyMember = () => {
                 srcSet="/assets/product/Placeholder.png"
                 alt="Order item"
               />
-              <img src="/assets/product/Placeholder_Default.jpg" alt="Order item" />
+              <img src="/assets/product/Placeholder_Default.png" alt="Order item" />
             </picture>
           </div>
           <div className="bx--col-sm-4 bx--col-md-8 bx--col-lg-6 lc-family-member__details lc-triangle__top-right">
@@ -95,7 +95,7 @@ const FamilyMember = () => {
                 srcSet="/assets/product/Placeholder.png"
                 alt="Order item"
               />
-              <img src="/assets/product/Placeholder_Default.jpg" alt="Order item" />
+              <img src="/assets/product/Placeholder_Default.png" alt="Order item" />
             </picture>
           </div>
           <div className="bx--col-sm-4 bx--col-md-8 bx--col-lg-6 lc-family-member__details lc-triangle__bottom-right">
@@ -122,7 +122,7 @@ const FamilyMember = () => {
                 srcSet="/assets/product/Placeholder.png"
                 alt="Order item"
               />
-              <img src="/assets/product/Placeholder_Default.jpg" alt="Order item" />
+              <img src="/assets/product/Placeholder_Default.png" alt="Order item" />
             </picture>
           </div>
           <div className="bx--col-sm-4 bx--col-md-8 bx--col-lg-6 lc-family-member__details lc-triangle__bottom-left">
@@ -149,7 +149,7 @@ const FamilyMember = () => {
                 srcSet="/assets/product/Placeholder.png"
                 alt="Order item"
               />
-              <img src="/assets/product/Placeholder_Default.jpg" alt="Order item" />
+              <img src="/assets/product/Placeholder_Default.png" alt="Order item" />
             </picture>
           </div>
           <div className="bx--col-sm-4 bx--col-md-8 bx--col-lg-6 lc-family-member__details lc-triangle__top-left">

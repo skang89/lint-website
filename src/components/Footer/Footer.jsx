@@ -2,6 +2,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+// import styles
+import "./Footer.scss";
+
 const Footer = () => {
   return (
     <div className="bx--grid bx--grid--full-width lc-footer">

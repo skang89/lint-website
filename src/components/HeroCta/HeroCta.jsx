@@ -26,14 +26,14 @@ const HeroCta = () => {
                 alt="placeholder product"
               />
               <img
-                src="/assets/product/Placeholder_Default.jpg"
+                src="/assets/product/Placeholder_Default.png"
                 alt="placeholder product"
                 className="lc-hero-cta__image"
               />
             </picture>
           </Link>
           <div className="bx--col lc-hero-cta__content">
-            <h2 className="lc-type__header__h2 lc-text__uppercase">Brushes CTA</h2>
+            <h2 className="lc-type__header__h2 lc-type__header__h2--bold">Brushes CTA</h2>
             <ButtonDefault linkFullWidth={false} />
           </div>
         </div>

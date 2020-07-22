@@ -7,6 +7,9 @@ import CurrencySelector from "../CurrencySelector/CurrencySelector";
 import Basket from "../Basket/Basket";
 import MainMenu from "../MainMenu/MainMenu";
 
+// import styles
+import "./Header.scss";
+
 const Header = () => {
   return (
     <div className="bx--grid bx--grid--full-width lc-header">

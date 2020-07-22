@@ -7,7 +7,7 @@ import "./TriangleTop.scss";
 const TriangleTop = () => {
   useEffect(() => {
     const triangleWidth = () => {
-      const width = window.innerWidth;
+      const width = document.querySelector(".lc-triangle-top").clientWidth;
       const borderWidth = width;
       const triangleShape = document.querySelector(".lc-triangle-top__shape");
 
@@ -28,7 +28,7 @@ const TriangleTop = () => {
   return (
     <div className="bx--grid bx--grid--full-width bx--no-gutter lc-triangle-top">
       <div className="bx--row">
-        <div className="bx--col">
+        <div className="bx--col bx--no-gutter">
           <div className="lc-triangle-top__shape"></div>
         </div>
       </div>

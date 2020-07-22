@@ -21,7 +21,7 @@ const ProductImages = () => {
               alt="placeholder product"
             />
             <img
-              src="/assets/product/Placeholder_Default.jpg"
+              src="/assets/product/Placeholder_Default.png"
               alt="placeholder product"
             />
           </picture>
@@ -39,7 +39,7 @@ const ProductImages = () => {
               alt="placeholder product"
             />
             <img
-              src="/assets/product/Placeholder_Default.jpg"
+              src="/assets/product/Placeholder_Default.png"
               alt="placeholder product"
             />
           </picture>
@@ -57,7 +57,7 @@ const ProductImages = () => {
               alt="placeholder product"
             />
             <img
-              src="/assets/product/Placeholder_Default.jpg"
+              src="/assets/product/Placeholder_Default.png"
               alt="placeholder product"
             />
           </picture>
@@ -75,7 +75,7 @@ const ProductImages = () => {
               alt="placeholder product"
             />
             <img
-              src="/assets/product/Placeholder_Default.jpg"
+              src="/assets/product/Placeholder_Default.png"
               alt="placeholder product"
             />
           </picture>
