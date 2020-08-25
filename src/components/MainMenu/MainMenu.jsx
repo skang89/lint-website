@@ -19,6 +19,8 @@ const onMenuClick = () => {
 };
 
 const onSubmenuClick = (e) => {
+  e.preventDefault();
+
   e.currentTarget.classList.toggle("lc-main-menu__menu__item--dropdown--active");
 };
 
@@ -59,7 +61,7 @@ const MainMenu = () => {
                   className="lc-type__subheader__h4 lc-main-menu__menu__item--dropdown"
                   onClick={onSubmenuClick}
                 >
-                  <Link to="/" title="link title">
+                  <Link to="#" title="link title">
                     Brushes
                     <span className="lc-main-menu__menu__item__icon">&gt;</span>
                   </Link>
@@ -82,7 +84,7 @@ const MainMenu = () => {
                   className="lc-type__subheader__h4 lc-main-menu__menu__item--dropdown"
                   onClick={onSubmenuClick}
                 >
-                  <Link to="/" title="link title">
+                  <Link to="#" title="link title">
                     Eye Shadows
                     <span className="lc-main-menu__menu__item__icon">&gt;</span>
                   </Link>
