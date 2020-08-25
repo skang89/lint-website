@@ -1,0 +1,10 @@
+@import "../Scss/Variables";
+@import "../Scss/Mixins";
+@import "../Scss/Globals";
+
+.lc-product-type {
+  &__header {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+}

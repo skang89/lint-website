@@ -17,12 +17,12 @@ const HeroCta = () => {
             <picture>
               <source
                 media="(max-width: 1055px)"
-                srcset="/assets/product/Placeholder_Mobile.png"
+                srcSet="/assets/product/Placeholder_Mobile.png"
                 alt="placeholder product"
               />
               <source
                 media="(min-width: 1056px)"
-                srcset="/assets/product/Placeholder.png"
+                srcSet="/assets/product/Placeholder.png"
                 alt="placeholder product"
               />
               <img

@@ -1,6 +1,8 @@
 // import react components
 import React from "react";
-import { Link } from "react-router-dom";
+
+// import components
+import ButtonClose from "../Buttons/ButtonClose/ButtonClose";
 
 // import style
 import "./CurrencySelector.scss";
@@ -26,15 +28,7 @@ const CurrencySelector = () => {
       </button>
 
       <div className="lc-currency__menu">
-        <button
-          type="button"
-          title="close currency menu"
-          className="lc-currency__menu__button"
-          onClick={onCurrencyClick}
-        >
-          <span className="lc-currency__menu__button__line"></span>
-          <span className="lc-currency__menu__button__line"></span>
-        </button>
+        <ButtonClose buttonEvent={onCurrencyClick} />
         <nav className="bx--grid bx--grid--full-width lc-currency__menu__nav">
           <div className="bx--row">
             <div className="bx--col">

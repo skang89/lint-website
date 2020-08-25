@@ -2,6 +2,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+// import styles
+import "./ProductType.scss";
+import FilterMenu from "../FilterMenu/FilterMenu";
+
 const ProductType = () => {
   return (
     <div className="bx--grid bx--grid--full-width lc-product-type__header">
@@ -12,12 +16,7 @@ const ProductType = () => {
           </h1>
         </div>
         <div className="bx--col">
-          <Link
-            title="sort by filter"
-            className="lc-type__meta__s4  lc-type__meta__s4--bold lc-text__right lc-text__underline lc-display__block"
-          >
-            Featured
-          </Link>
+          <FilterMenu />
         </div>
       </div>
       <div className="bx--row">

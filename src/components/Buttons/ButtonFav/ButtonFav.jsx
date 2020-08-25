@@ -21,7 +21,7 @@ const ButtonFav = (props) => {
           className="lc-button__fav__icon"
           src="/assets/icons/favorite--empty.svg"
           alt="favourite icon"
-          srcset="/assets/icons/favorite--empty.svg"
+          srcSet="/assets/icons/favorite--empty.svg"
         />
       </span>
     </Link>

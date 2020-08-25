@@ -26,12 +26,12 @@ const ProductItem = (props) => {
         <picture>
           <source
             media="(max-width: 1055px)"
-            srcset={productImageMobile}
+            srcSet={productImageMobile}
             alt={productName}
           />
           <source
             media="(min-width: 1056px)"
-            srcset={productImageLarge}
+            srcSet={productImageLarge}
             alt={productName}
           />
           <img src={productImageDefault} alt={productName} />

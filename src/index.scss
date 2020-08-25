@@ -52,7 +52,20 @@ a {
   }
 }
 
+.lc-menu__overlay {
+  position: relative;
+  &:after {
+    content: "";
+    @include var(background-color, main-color-default);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.2;
+  }
+}
+
 // import component styles
-@import "./components/ProductType/ProductType";
 @import "./components/ProductListItem/ProductListItem";
 @import "./components/ProductDetails/ProductDetails";

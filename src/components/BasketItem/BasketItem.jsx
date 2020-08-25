@@ -31,12 +31,12 @@ const BasketItem = () => {
                   <picture>
                     <source
                       media="(max-width: 1055px)"
-                      srcset="/assets/product/Placeholder_Mobile.png"
+                      srcSet="/assets/product/Placeholder_Mobile.png"
                       alt="L1 Brush"
                     />
                     <source
                       media="(min-width: 1056px)"
-                      srcset="/assets/product/Placeholder.png"
+                      srcSet="/assets/product/Placeholder.png"
                       alt="L1 Brush"
                     />
                     <img src="/assets/product/Placeholder_Default.png" alt="L1 Brush" />
@@ -68,12 +68,12 @@ const BasketItem = () => {
                   <picture>
                     <source
                       media="(max-width: 1055px)"
-                      srcset="/assets/product/Placeholder_Mobile.png"
+                      srcSet="/assets/product/Placeholder_Mobile.png"
                       alt="L1 Brush"
                     />
                     <source
                       media="(min-width: 1056px)"
-                      srcset="/assets/product/Placeholder.png"
+                      srcSet="/assets/product/Placeholder.png"
                       alt="L1 Brush"
                     />
                     <img src="/assets/product/Placeholder_Default.png" alt="L1 Brush" />
@@ -105,12 +105,12 @@ const BasketItem = () => {
                   <picture>
                     <source
                       media="(max-width: 1055px)"
-                      srcset="/assets/product/Placeholder_Mobile.png"
+                      srcSet="/assets/product/Placeholder_Mobile.png"
                       alt="L1 Brush"
                     />
                     <source
                       media="(min-width: 1056px)"
-                      srcset="/assets/product/Placeholder.png"
+                      srcSet="/assets/product/Placeholder.png"
                       alt="L1 Brush"
                     />
                     <img src="/assets/product/Placeholder_Default.png" alt="L1 Brush" />
@@ -142,12 +142,12 @@ const BasketItem = () => {
                   <picture>
                     <source
                       media="(max-width: 1055px)"
-                      srcset="/assets/product/Placeholder_Mobile.png"
+                      srcSet="/assets/product/Placeholder_Mobile.png"
                       alt="L1 Brush"
                     />
                     <source
                       media="(min-width: 1056px)"
-                      srcset="/assets/product/Placeholder.png"
+                      srcSet="/assets/product/Placeholder.png"
                       alt="L1 Brush"
                     />
                     <img src="/assets/product/Placeholder_Default.png" alt="L1 Brush" />
@@ -179,12 +179,12 @@ const BasketItem = () => {
                   <picture>
                     <source
                       media="(max-width: 1055px)"
-                      srcset="/assets/product/Placeholder_Mobile.png"
+                      srcSet="/assets/product/Placeholder_Mobile.png"
                       alt="L1 Brush"
                     />
                     <source
                       media="(min-width: 1056px)"
-                      srcset="/assets/product/Placeholder.png"
+                      srcSet="/assets/product/Placeholder.png"
                       alt="L1 Brush"
                     />
                     <img src="/assets/product/Placeholder_Default.png" alt="L1 Brush" />
