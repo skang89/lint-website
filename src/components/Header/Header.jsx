@@ -1,5 +1,5 @@
 // import react packages
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 // import components
@@ -11,6 +11,20 @@ import MainMenu from "../MainMenu/MainMenu";
 import "./Header.scss";
 
 const Header = () => {
+  useEffect(() => {
+    const stickyHeader = () => {
+      const header = document.querySelector(".lc-header");
+      let scrollY = window.scrollY;
+
+      scrollY > 120
+        ? header.classList.add("lc-header--sticky")
+        : header.classList.remove("lc-header--sticky");
+
+      console.log(scrollY);
+    };
+
+    window.addEventListener("scroll", stickyHeader);
+  }, []);
   return (
     <div className="bx--grid bx--grid--full-width lc-header">
       <div className="bx--row lc-align__items--center">

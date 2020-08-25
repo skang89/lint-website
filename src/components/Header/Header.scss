@@ -6,6 +6,12 @@ body .lc-header {
   padding-top: 1rem;
   padding-bottom: 0.5rem;
   position: relative;
+  top: 0;
+  @include var(background-color, main-color-primary);
+
+  &--sticky {
+    position: sticky;
+  }
 
   &:after {
     content: "";
@@ -23,7 +29,7 @@ body .lc-header {
       position: relative;
       width: 56px;
       display: block;
-      z-index: 99999;
+      z-index: 999;
 
       @include mq("large") {
         width: 86px;

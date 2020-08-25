@@ -11,12 +11,15 @@ import "./ProductItem.scss";
 
 const onButtonBuyClick = () => {
   const addToBag = document.querySelector(".lc-add-bag__overlay");
+  const body = document.body;
 
   if (!addToBag.classList.contains("lc-add-bag__overlay--active")) {
     addToBag.classList.toggle("lc-add-bag__overlay--active");
+    body.classList.toggle("lc-disable-scroll");
 
     setTimeout(() => {
       addToBag.classList.remove("lc-add-bag__overlay--active");
+      body.classList.remove("lc-disable-scroll");
     }, 3000);
   }
 
