@@ -1,6 +1,5 @@
 // import react packages
 import React from "react";
-import { Link } from "react-router-dom";
 
 // import styles
 import "./ProductType.scss";

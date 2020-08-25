@@ -7,6 +7,7 @@ import OfferBanner from "../../OfferBanner/OfferBanner";
 import ProductType from "../../ProductType/ProductType";
 import ProductListItem from "../../ProductListItem/ProductListItem";
 import Footer from "../../Footer/Footer";
+import AddedToBag from "../../AddedToBag/AddedToBag";
 
 const Products = () => {
   return (
@@ -15,6 +16,7 @@ const Products = () => {
       <OfferBanner />
       <ProductType />
       <ProductListItem />
+      <AddedToBag />
       <Footer />
     </>
   );

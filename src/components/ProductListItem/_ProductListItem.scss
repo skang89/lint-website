@@ -1,9 +1,0 @@
-.lc-product-items {
-  > div > div {
-    margin-bottom: $layout-04;
-
-    @include mq("xlarge") {
-      margin-bottom: $layout-05;
-    }
-  }
-}

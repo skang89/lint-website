@@ -4,6 +4,9 @@ import React from "react";
 // import components
 import ProductItem from "../ProductItem/ProductItem";
 
+// import styles
+import "./ProductListItem.scss";
+
 const ProductListItem = () => {
   return (
     <div className="bx--grid bx--grid--full-width lc-product-items">

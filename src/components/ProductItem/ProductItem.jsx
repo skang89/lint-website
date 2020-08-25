@@ -9,6 +9,20 @@ import ButtonDefault from "../Buttons/ButtonDefault/ButtonDefault";
 // import styles
 import "./ProductItem.scss";
 
+const onButtonBuyClick = () => {
+  const addToBag = document.querySelector(".lc-add-bag__overlay");
+
+  if (!addToBag.classList.contains("lc-add-bag__overlay--active")) {
+    addToBag.classList.toggle("lc-add-bag__overlay--active");
+
+    setTimeout(() => {
+      addToBag.classList.remove("lc-add-bag__overlay--active");
+    }, 3000);
+  }
+
+  console.log(addToBag);
+};
+
 const ProductItem = (props) => {
   const {
     productUrl,
@@ -55,6 +69,8 @@ const ProductItem = (props) => {
             linkTitle={productName}
             linkText={productButtonText}
             linkFullWidth={true}
+            isButton={true}
+            buttonEvent={onButtonBuyClick}
           />
         </div>
       </div>

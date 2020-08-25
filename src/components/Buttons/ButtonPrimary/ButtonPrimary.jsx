@@ -7,7 +7,20 @@ import PropTypes from "prop-types";
 import "./ButtonPrimary.scss";
 
 const ButtonPrimary = (props) => {
-  const { linkUrl, linkTitle, linkText, linkFullWidth } = props;
+  const { linkUrl, linkTitle, linkText, linkFullWidth, isButton, buttonEvent } = props;
+
+  if (isButton) {
+    return (
+      <button
+        type="button"
+        title={linkTitle}
+        className={`lc-button__primary ${linkFullWidth ? "lc-button__full-width" : ""}`}
+        onClick={buttonEvent}
+      >
+        {linkText}
+      </button>
+    );
+  }
 
   return (
     <Link
@@ -25,14 +38,18 @@ ButtonPrimary.defaultProps = {
   linkUrl: "/",
   linkTitle: "Link title",
   linkText: "Link title",
-  linkFullWidth: false
+  linkFullWidth: false,
+  isButton: false,
+  buttonEvent: () => {}
 };
 
 ButtonPrimary.propTypes = {
   linkUrl: PropTypes.string,
   linkTitle: PropTypes.string,
   linkText: PropTypes.string,
-  linkFullWidth: PropTypes.bool
+  linkFullWidth: PropTypes.bool,
+  isButton: PropTypes.bool,
+  buttonEvent: PropTypes.func
 };
 
 export default ButtonPrimary;

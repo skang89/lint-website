@@ -1,0 +1,13 @@
+@import "../Scss/Variables";
+@import "../Scss/Mixins";
+@import "../Scss/Globals";
+
+.lc-product-items {
+  > div > div {
+    margin-bottom: 3rem;
+
+    @include mq("xlarge") {
+      margin-bottom: 4rem;
+    }
+  }
+}
