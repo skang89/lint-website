@@ -85,7 +85,7 @@ const Home = () => {
               <div>
                 <p>
                   Pro Makeup <br /> Tools Coming <br />
-                  <span>September 2020</span>
+                  <span>Holidays 2020</span>
                 </p>
               </div>
               <div>
